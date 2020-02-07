@@ -1,0 +1,2425 @@
+: 1564575266:0;cd ~/
+: 1564575269:0;ls -l
+: 1564575274:0;ls -la
+: 1564575281:0;nano .zshrc
+: 1564575578:0;git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+: 1564575588:0;nano .zshrc
+: 1564575678:0;git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+: 1564576814:0;cd ~/
+: 1564576817:0;ls -la
+: 1564576825:0;cd Documents/projects
+: 1564576846:0;cd ~/Documents/projects/raildiary-web
+: 1564576870:0;nano ~/.zshrc
+: 1564576909:0;nano ~/.bash_profile
+: 1564576931:0;nano ~/.zshrc
+: 1564576960:0;cd ../
+: 1564576963:0;cd sitediary-app
+: 1564577088:0;cd ~/Documents/projects/raildiary-web
+: 1564577243:0;git pull
+: 1564577255:0;git status
+: 1564577261:0;git checkout -- .
+: 1564577263:0;git status
+: 1564577271:0;git reset HEAD
+: 1564577276:0;git status
+: 1564577299:0;git reset --hard
+: 1564577301:0;git status
+: 1564577311:0;rm dockerclean .sh
+: 1564577314:0;rm dockerclean.sh
+: 1564577317:0;git status
+: 1564577328:0;rm composer.phar
+: 1564577330:0;git status
+: 1564582759:0;code .
+: 1564582769:0;cd frontend
+: 1564582771:0;code .
+: 1564583316:0;git status
+: 1564583328:0;yarn
+: 1564583360:0;docker ps
+: 1564583383:0;docker-compose rm && docker-compose build --no-cache && docker-compose up -d --force-recreate
+: 1564583887:0;docker-compose exec php-fpm bash make install
+: 1564583965:0;docker-compose exec php-fpm bash
+: 1564584051:0;composer -v
+: 1564584070:0;docker-compose exec php-fpm bash
+: 1564584368:0;cd frontend
+: 1564584372:0;yarn
+: 1564584377:0;cd ../
+: 1564584384:0;docker ps
+: 1564584393:0;yarn middleware
+: 1564584489:0;docker-compose stop && docker-compose start
+: 1564584533:0;docker-compose exec php-fpm bash make install
+: 1564584580:0;docker-compose exec php-fpm bash
+: 1564584608:0;git pull
+: 1564584618:0;node --version
+: 1564584623:0;nvm --version
+: 1564584625:0;nvm
+: 1564584657:0;brew install nvm
+: 1564584750:0;source ~/.zshrc
+: 1564584753:0;nvm -v
+: 1564584760:0;nvm --version
+: 1564584788:0;nano ~/.zshrc
+: 1564584819:0;source ~/.zshrc
+: 1564584824:0;nvm
+: 1564584831:0;nvm install 11.16.0
+: 1564584852:0;nvm install 11.15.0
+: 1564584859:0;nvm ls
+: 1564584870:0;node --version
+: 1564584885:0;docker-compose exec php-fpm bash make install
+: 1564584896:0;docker-compose exec php-fpm bash
+: 1564584965:0;docker ps
+: 1564584976:0;nvm -v
+: 1564584980:0;nvm --version
+: 1564584984:0;node --versiomn
+: 1564584994:0;node --version
+: 1564585030:0;docker-compose exec php-fpm bash echo "howdy"
+: 1564585049:0;docker-compose exec php-fpm bash
+: 1564585237:0;docker-compose stop
+: 1564585282:0;docker-compose start
+: 1564585291:0;docker-compose exec php-fpm bash
+: 1564585332:0;docker-compose stop
+: 1564585369:0;docker stop $(docker ps -a -q)
+: 1564585394:0;docker rm $(docker ps -a -q)
+: 1564585399:0;docker ps -a
+: 1564585412:0;cd ../
+: 1564585429:0;rm -rf raildiary-web
+: 1564585459:0;git clone git@bitbucket.org:raildiary/raildiary-web.git
+: 1564585537:0;cd raildiary-web
+: 1564585565:0;code .
+: 1564585825:0;docker-compose up -d
+: 1564586491:0;docker-compose exec php-fpm bash make install
+: 1564586496:0;docker-compose exec php-fpm bash
+: 1564587251:0;docker-compose stop && docker-compose start
+: 1564587291:0;docker-compose exec php-fpm bash
+: 1564587317:0;docker ps
+: 1564587326:0;cd frontend
+: 1564587330:0;yarn middleware
+: 1564587365:0;yarn
+: 1564587392:0;yarn middleware
+: 1564587582:0;docker-compose stop
+: 1564587595:0;docker stop $(docker ps -a -q)
+: 1564587611:0;docker rm $(docker ps -a -q)
+: 1564587618:0;docker ps -a
+: 1564587624:0;docker-compose up -d
+: 1564587858:0;docker-compose exec php-fpm bash
+: 1564588288:0;docker-compose stop && docker-compose start
+: 1564588349:0;docker ps
+: 1564588414:0;yarn
+: 1564588424:0;npm rebuild node-sass
+: 1564588437:0;yarn middleware
+: 1564588654:0;rm -rf node_modules
+: 1564588661:0;yarn
+: 1564588678:0;yarn middleware
+: 1564653649:0;git fetch --all
+: 1564653769:0;git checkout feature/shiftPrePopulate_sit-428
+: 1564653778:0;git stash
+: 1564653782:0;git checkout feature/shiftPrePopulate_sit-428
+: 1564653806:0;cd ../
+: 1564653831:0;yarn middleware
+: 1564653958:0;code .
+: 1564659166:0;docker-compose stop
+: 1564659261:0;docker-compose down
+: 1564659300:0;cd ../
+: 1564659305:0;rm -rf raildiary-web
+: 1564659579:0;git clone git@bitbucket.org:raildiary/raildiary-web.git
+: 1564659685:0;cd raildiary-web/
+: 1564659690:0;docker-compose up -d
+: 1564659710:0;docker-compose exec php-fpm bash
+: 1564660299:0;docker stop $(docker ps -a -q)
+: 1564660321:0;docker rm $(docker ps -a -q)
+: 1564660332:0;docker-compose up -d
+: 1564660572:0;docker ps
+: 1564660649:0;docker-compose exec php-fpm bash
+: 1564660903:0;docker-compose build
+: 1564661404:0;docker stop $(docker ps -a -q)
+: 1564661428:0;docker rm $(docker ps -a -q)
+: 1564662255:0;docker-compose down
+: 1564662262:0;docker image prune
+: 1564662341:0;docker-compose down
+: 1564662352:0;docker-compose build
+: 1564662387:0;docker-compose up -d
+: 1564662405:0;docker-compose exec php-fpm bash
+: 1564663737:0;cd frontend
+: 1564663739:0;yarn
+: 1564663853:0;yarn middleware
+: 1564665881:0;docker ps
+: 1564665887:0;docker-compose up -d
+: 1564665893:0;docker ps
+: 1564666009:0;docker list images
+: 1564666053:0;docker images liost
+: 1564666055:0;docker images list
+: 1564666062:0;docker ps
+: 1564666085:0;docker-compose exec php-fpm bash
+: 1564666199:0;docker-compose stop && docker-compose start
+: 1564670074:0;cd ../../
+: 1564670083:0;cd raildiary-web/
+: 1564670085:0;code .
+: 1564670101:0;git config core.eol lf
+: 1564670108:0;git config core.autocrlf input
+: 1564670114:0;git config core.ignorecase false
+: 1564670118:0;git config --list
+: 1564733616:0;nano ~/.zshrc
+: 1564748012:0;nvm --version
+: 1565263856:0;git checkout feature/shiftPrePopulate_sit-428
+: 1565263861:0;git fetch --all
+: 1565263872:0;git checkout feature/shiftPrePopulate_sit-428
+: 1565263883:0;git checkout feature/shiftPrePopulate-pc5_sit-428
+: 1565264510:0;git checkout -b feature/shiftPrePopulate-pc5_SIT-427
+: 1565266249:0;git push -u origin feature/shiftPrePopulate-pc5_SIT-427
+: 1565272421:0;yarn test
+: 1565272425:0;cd frontend
+: 1565272427:0;yarn test
+: 1565272451:0;jest --version
+: 1565272456:0;npm i -g jest
+: 1565272495:0;jest --version
+: 1565272499:0;yarn test
+: 1565272997:0;code ~/Desktop/testcsv.csv
+: 1565274343:0;yarn test
+: 1565352222:0;git status
+: 1565352225:0;git log
+: 1565352240:0;git add .
+: 1565353438:0;git commit -m "SIT-427 - preview for shift uploads"
+: 1565353444:0;git push
+: 1565354367:0;git checkout release/5.1.0-datasources
+: 1565354371:0;git fetch --all
+: 1565354378:0;git checkout release/5.1.0-datasources
+: 1565354614:0;git checkout -b release/5.1.0-datasources_SIT-453
+: 1565357275:0;docker-compose down
+: 1565357312:0;docker-compose up -d
+: 1565357350:0;docker-compose exec php-fpm bash
+: 1565359510:0;cd ..
+: 1565359515:0;docker-compose exec php-fpm bash
+: 1565360554:0;docker-compose down
+: 1565360587:0;docker-compose up -d
+: 1565360601:0;docker-compose exec php-fpm bash
+: 1565360636:0;docker ps
+: 1565360658:0;docker-compose exec php-fpm bash
+: 1565361377:0;docker-compose stop && docker-compose start
+: 1565361415:0;yarn middleware
+: 1565361460:0;npm rebuild node-sass
+: 1565361468:0;yarn middleware
+: 1565361529:0;yarn
+: 1565361540:0;rm -rf node_modules
+: 1565361559:0;yarn
+: 1565361593:0;yarn middleware
+: 1565361752:0;docker ps
+: 1565361799:0;docker-compose exec php-fpm bash
+: 1565363663:0;git status
+: 1565363666:0;git add .
+: 1565363708:0;git commit -m "SIT-453 - allow empty fields in project specific data sources when there is a client fallback"
+: 1565363730:0;git push -u origin release/5.1.0-datasources_SIT-453
+: 1565364801:0;git checkout feature/shiftPrePopulate-pc5_sit-428
+: 1565364805:0;git checkout feature/shiftPrePopulate-pc5_sit-427
+: 1565452919:0;cd ../
+: 1565452923:0;cd army-ants
+: 1565452925:0;code .
+: 1565525920:0;cd ../
+: 1565525923:0;cd project-ants
+: 1565525924:0;code .
+: 1565541995:0;cd ../
+: 1565541997:0;cd arm
+: 1565542000:0;cd army-ants
+: 1565542003:0;git add .
+: 1565542014:0;git commit -m "core overhaul"
+: 1565542016:0;git push
+: 1565542036:0;git checkout master
+: 1565542044:0;git merge tempmess
+: 1565542049:0;git push
+: 1565542242:0;git status
+: 1565542252:0;code .
+: 1565546314:0;cd ../
+: 1565546318:0;cd army-ants
+: 1565546319:0;code .
+: 1565551040:0;git add .
+: 1565551042:0;git status
+: 1565551056:0;git commit -m "renamed files and redid all imports"
+: 1565551058:0;git push
+: 1565698830:0;git fetch --all
+: 1565698842:0;git checkout feature/shiftPrePopulate-pc5_sit-429
+: 1565698849:0;git stash
+: 1565698852:0;git checkout feature/shiftPrePopulate-pc5_sit-429
+: 1565698855:0;git pull
+: 1565698875:0;git fetch --all
+: 1565698879:0;git pul
+: 1565698882:0;git pull
+: 1565698893:0;git checkout feature/shiftPrePopulate-pc5_SIT-429
+: 1565698896:0;git pull
+: 1565698926:0;git pull origin feature/shiftPrePopulat-pc5_SIT-429
+: 1565699003:0;git checkout feature/shiftPrePopulate
+: 1565699046:0;git checkout feature/shiftPrePopulate-pc5
+: 1565699072:0;git branch -D feature/shiftPrePopulate-pc5_SIT-429
+: 1565699075:0;git fetch -all
+: 1565699078:0;git fetch --all
+: 1565699087:0;git checkout feature/shiftPrePopulate-pc5_SIT-429
+: 1565699090:0;git pull
+: 1565703388:0;code .
+: 1565708894:0;npm update
+: 1565708970:0;rm -rf node_modules
+: 1565708983:0;npm i
+: 1565709555:0;npm run eject
+: 1565709568:0;git add .
+: 1565709578:0;git commit -m "player input"
+: 1565709586:0;npm run eject
+: 1565710548:0;rm -rf node_modules
+: 1565710558:0;npm i
+: 1565710601:0;npm audit fix
+: 1565710628:0;npm update
+: 1565711263:0;npm run start
+: 1565712715:0;docker ps
+: 1565712735:0;docker-compose up -d
+: 1565712753:0;yarn middleware
+: 1565713361:0;yarn
+: 1565713641:0;yarn middleware
+: 1565715713:0;git add .
+: 1565715721:0;git commit -m "fix compile errors"
+: 1565715724:0;git push
+: 1565716402:0;cd ../project-ants
+: 1565716403:0;code .
+: 1565717251:0;npm run start
+: 1565718127:0;cd ../
+: 1565718129:0;cd army-ants
+: 1565718132:0;git add .
+: 1565718141:0;git commit -m "add basic front end"
+: 1565718144:0;git push
+: 1565978908:0;cd ../
+: 1565978996:0;git clone git@github.com:ryanantonydunn/landmass-js.git
+: 1565979003:0;cd landmass-js
+: 1565979005:0;yarn
+: 1565979033:0;rm -rf package-lock.json
+: 1565979037:0;git add .
+: 1565979043:0;git status
+: 1565979056:0;git commit -m "remove package lock"
+: 1565979058:0;git push
+: 1565979069:0;code .
+: 1565979104:0;npm run start
+: 1565979237:0;webpack-dev-server --display-error-details
+: 1565979257:0;yarn
+: 1565979262:0;webpack
+: 1565979273:0;npm i -g webpack webpack-cli
+: 1565979358:0;yarn
+: 1565979362:0;yarn start
+: 1565979396:0;npm i -g typescript
+: 1565979409:0;yarn start
+: 1565979597:0;tsc
+: 1565979601:0;yarn start
+: 1565979662:0;yarn add -D typescript ts-loader
+: 1565980105:0;yarn add -D @babel/preset-typescript @babel/plugin-proposal-class-properties @babel/plugin-proposal-object-rest-spread
+: 1565980163:0;yarn start
+: 1565980773:0;git add .
+: 1565980792:0;git commit -m "set up typescript babel"
+: 1565980793:0;git push
+: 1566047743:0;cd ../
+: 1566047744:0;cd arm
+: 1566047747:0;cd army-ants
+: 1566047749:0;code .
+: 1566048776:0;code ../
+: 1566048784:0;cd ../
+: 1566048786:0;cd project-ants
+: 1566048787:0;code .
+: 1566060163:0;yarn starty
+: 1566060164:0;yarn start
+: 1566061387:0;code .
+: 1566061518:0;yarn add -D raw-loader
+: 1566071123:0;yarn add -D svg-inline-loader
+: 1566072285:0;yarn start
+: 1566072556:0;git add .
+: 1566072565:0;git commit -m "main drawing loop"
+: 1566076080:0;git add .
+: 1566076086:0;git commit -m "start movement"
+: 1566230084:0;yarn start
+: 1566232719:0;cd ../../
+: 1566232732:0;cd sitediary-app\\
+git pull
+: 1566232743:0;cd sitediary-app
+: 1566232746:0;git pull
+: 1566239830:0;git add .
+: 1566239839:0;git commit -m "movement and land collisions"
+: 1566239841:0;git push
+: 1566241092:0;git add .
+: 1566241094:0;git star
+: 1566241104:0;git commit -m "start input"
+: 1566241106:0;git push
+: 1566241357:0;git add .
+: 1566241359:0;git commit -m "start input"
+: 1566241361:0;git push
+: 1566390280:0;git checkout master
+: 1566390341:0;git push origin --delete mess
+: 1566390353:0;git branch -D mess
+: 1566390379:0;Before installexport PKG_CONFIG_PATH="/usr/local/opt/libffi/lib/pkgconfig"
+: 1566390483:0;export PKG_CONFIG_PATH="/usr/local/opt/libffi/lib/pkgconfig"
+: 1566390487:0;yarn
+: 1566390626:0;code .
+: 1566390666:0;yarn
+: 1566390678:0;react-native --version
+: 1566390687:0;react-native -version
+: 1566390775:0;react-native run-android
+: 1566391012:0;brew install pkg-config cairo pango libpng jpeg giflib librsvg
+: 1566391090:0;code .
+: 1566391266:0;git checkout develop
+: 1566391270:0;git pull
+: 1566391279:0;git stash
+: 1566391282:0;git pull
+: 1566391307:0;react-native run-android
+: 1566391322:0;yarn upgrade
+: 1566391332:0;yarn
+: 1566391530:0;gulp build
+: 1566391540:0;yarn add -D gulp
+: 1566391555:0;react-native run-android
+: 1566391563:0;/Users/ryandunn/Documents/projects/sitediary-app/node_modules/react-native/scripts/launchPackager.command ; exit;
+: 1566391703:0;cd android/app
+: 1566391707:0;keytool -list -v -keystore ~/.android/debug.keystore -alias androiddebugkey -storepass android -keypass android
+: 1566391712:0;cd ../../
+: 1566391715:0;react-native run-android
+: 1566391726:0;gulp build
+: 1566391752:0;yarn add -D gulp-cli
+: 1566391774:0;rm -f package-lock.json
+: 1566391782:0;gulp build
+: 1566391812:0;npm i -g gulp-cli
+: 1566391824:0;gulp build
+: 1566391904:0;cd android/app
+: 1566391907:0;keytool -list -v -keystore ~/.android/debug.keystore -alias androiddebugkey -storepass android -keypass android
+: 1566391914:0;ls -la
+: 1566392010:0;yarn rm -D gulp
+: 1566392018:0;yarn remove -D gulp
+: 1566392052:0;yarn remove gulp
+: 1566392073:0;yarn add -D gulp@3.9.1
+: 1566392093:0;rm -rf node_modules
+: 1566392097:0;yarn
+: 1566392130:0;keytool -genkey -v -keystore debug.keystore -storepass android -alias androiddebugkey -keypass android -keyalg RSA -keysize 2048 -validity 10000
+: 1566392140:0;cd ../../
+: 1566392142:0;react-native run-android
+: 1566392154:0;yarn upgrade
+: 1566392337:0;rm -rf node_modules
+: 1566392341:0;export PKG_CONFIG_PATH="/usr/local/opt/libffi/lib/pkgconfig"
+: 1566392346:0;yarn
+: 1566392375:0;gulp build
+: 1566392390:0;npm i -g gulp@3.9.1
+: 1566392402:0;gulp build
+: 1566392408:0;source ~/.zshrc
+: 1566392411:0;gulp build
+: 1566392417:0;yarn add -D gulp@3.9.1
+: 1566392424:0;gulp build
+: 1566392466:0;yarn server:dev
+: 1566396453:0;gulp
+: 1566396491:0;npm i -g http-server
+: 1566396520:0;http-server
+: 1566396688:0;yarn demo
+: 1566466474:0;react-native run-android
+: 1566466569:0;react-native start
+: 1566466645:0;ps aux | grep node
+: 1566466695:0;ls -la
+: 1566466707:0;cd Documents/projects/sitediary-app
+: 1566466715:0;ps aux | grep node
+: 1566466885:0;react-native start
+: 1566467054:0;cd ../
+: 1566467059:0;cd raildiary-web/
+: 1566467060:0;code .
+: 1566467256:0;cd ../
+: 1566467258:0;cd army-ants
+: 1566467261:0;code .
+: 1566467898:0;npm start --reset-cac he
+: 1566467901:0;npm start --reset-cache
+: 1566478783:0;cd ../
+: 1566478786:0;cd project-ants
+: 1566478789:0;gulp
+: 1566478802:0;yarn demo
+: 1566484991:0;rm -rf node_modules
+: 1566484998:0;yarn
+: 1566485093:0;rm -rf node_modules
+: 1566485162:0;yarn
+: 1566485187:0;yarn demo
+: 1566485235:0;git add .
+: 1566485243:0;git commit -m "cobble together a demo"
+: 1566485886:0;cd ../
+: 1566485888:0;cd get-to-ten
+: 1566485890:0;code .
+: 1566486089:0;yarn add -D gh-pages
+: 1566486230:0;git push
+: 1566486363:0;yarn predeploy
+: 1566486380:0;yarn deploy
+: 1566486444:0;git add .
+: 1566486451:0;git commit -m "github pages"
+: 1566486454:0;git push
+: 1566486867:0;yarn deploy
+: 1566487567:0;git add .
+: 1566487576:0;git commit -m "remove"
+: 1566487580:0;git push
+: 1566487926:0;git add .
+: 1566487935:0;git commit -m "github pages"
+: 1566487939:0;git push
+: 1566488506:0;git add .
+: 1566488516:0;git commit -m "github pages index"
+: 1566488518:0;git push
+: 1566488568:0;git add .
+: 1566488570:0;git commit -m "github pages index"
+: 1566488572:0;git push
+: 1566488687:0;git add .
+: 1566488698:0;git commit -m "add link to readme"
+: 1566488699:0;git push
+: 1567861840:0;cd ../
+: 1567861842:0;cd project-ants
+: 1567861844:0;code .
+: 1567862489:0;yarn demo
+: 1567862497:0;gulp
+: 1567867405:0;git add .
+: 1567867423:0;git commit -m "make touch controls for demo and edit settings page"
+: 1567867425:0;git push
+: 1567867443:0;yarn predeploy
+: 1567867453:0;git status
+: 1567867456:0;git add .
+: 1567867468:0;git commit -m "new build for gh pages"
+: 1567867470:0;git push
+: 1567868016:0;gulp build --production
+: 1567868056:0;git status
+: 1567868062:0;git add .
+: 1567868065:0;git status
+: 1567868067:0;git commit -m "new build for gh pages"
+: 1567868070:0;git push
+: 1567868276:0;git add .
+: 1567868278:0;git status
+: 1567868286:0;git commit -m "add homepage to package"
+: 1567868288:0;git push
+: 1567868479:0;git add .
+: 1567868480:0;git status
+: 1567868493:0;git commit -m "index on gh pages"
+: 1567868495:0;git push
+: 1567868627:0;git add .
+: 1567868629:0;git commit -m "index on gh pages"
+: 1567868632:0;git push
+: 1567870897:0;gulp
+: 1567872166:0;git add .
+: 1567872174:0;yarn predeploy
+: 1567872313:0;git add .
+: 1567872314:0;git status
+: 1567872330:0;git commit -m "adjust input, add fullscreen"
+: 1567872332:0;git push
+: 1567872760:0;gulp
+: 1567873317:0;yarn predeploy
+: 1567873327:0;git add .
+: 1567873373:0;gulp
+: 1567873998:0;yarn predeploy
+: 1567874012:0;git add .
+: 1567874024:0;git commit -m "adjust interface"
+: 1567874026:0;git push
+: 1567942809:0;cd ../
+: 1567942822:0;mkdir language-learner
+: 1567942830:0;cd language-learner
+: 1567942876:0;code .
+: 1567942900:0;cd ...
+: 1567942905:0;cd projects/
+: 1567942909:0;cd landmass-js
+: 1567942913:0;code .
+: 1567942964:0;cd ../
+: 1567942968:0;cd language-learner
+: 1567942971:0;yarn
+: 1567943018:0;yarn add react
+: 1567943031:0;yarn add styled-components
+: 1567943053:0;cd ../
+: 1567943055:0;cd raildiary-web/
+: 1567943056:0;code .
+: 1567943112:0;yarn
+: 1567943144:0;cd ../
+: 1567943146:0;cd landmass-js
+: 1567943147:0;code .
+: 1567943604:0;yarn add react-dom
+: 1567943910:0;cd ../
+: 1567943912:0;cd raildiary-web/
+: 1567943914:0;code .
+: 1567967712:0;yarn
+: 1567967725:0;yarn upgrade
+: 1567967741:0;yarn update
+: 1567967947:0;code .
+: 1567968572:0;yarn add -D html-webpack-plugin
+: 1567968642:0;code .
+: 1567968747:0;cd ../
+: 1567968750:0;ls -la
+: 1567968768:0;create-react-app create-react-app
+: 1567968792:0;npx create-react-app create-react-app
+: 1567968822:0;cd create-react-app
+: 1567968824:0;eject
+: 1567968829:0;npm run eject
+: 1567968841:0;code .
+: 1567969302:0;yarn add -D @types/react @types/react-dom
+: 1567969387:0;code .
+: 1567969698:0;cd ../
+: 1567969705:0;rm -rf create-react-app
+: 1567969717:0;npx create-react-app create-react-app --typescript
+: 1567969743:0;cd create-react-app
+: 1567969747:0;yarn eject
+: 1567969763:0;code .
+: 1567970236:0;rm -rf node_modules
+: 1567970241:0;yarn
+: 1567970255:0;code .
+: 1567970413:0;cd ../
+: 1567970414:0;ls -la
+: 1567970420:0;cd landmass-js
+: 1567970421:0;code .
+: 1567970546:0;rm -rf node_modules
+: 1567970550:0;yarn
+: 1567970593:0;code .
+: 1567970835:0;yarn start
+: 1567970913:0;code .
+: 1567971085:0;yarn start
+: 1567971829:0;yarn add @babel/preset-react
+: 1567971837:0;yarn start
+: 1567971886:0;cd ../
+: 1567971958:0;cd typescript-boilerplate
+: 1567972015:0;code .
+: 1567972044:0;cd ../
+: 1567972049:0;cd language-learner
+: 1567972052:0;code .
+: 1567972198:0;git init
+: 1567972207:0;git add .
+: 1567972222:0;git commit -m "create repo"
+: 1567972235:0;git remote add origin git@github.com:ryanantonydunn/react-ts-boilerplate.git
+: 1567972243:0;git push -u origin master
+: 1567972305:0;code .
+: 1567972315:0;yarn
+: 1567972332:0;code .
+: 1567972378:0;cd ../
+: 1567972383:0;cd landma
+: 1567972385:0;cd landmad
+: 1567972387:0;s
+: 1567972394:0;cd landmass-js
+: 1567972395:0;code .
+: 1567972495:0;yarn add -D @types/styled-components
+: 1567972567:0;yarn start
+: 1567973002:0;git status
+: 1567973013:0;git add .
+: 1567973022:0;git commit -m "add styled components"
+: 1567973023:0;git push
+: 1567973048:0;cd ../
+: 1567973095:0;git clone git@github.com:ryanantonydunn/react-ts-boilerplate.git language-learner
+: 1567973108:0;cd language-learner
+: 1567973110:0;code .
+: 1567973139:0;yarn
+: 1567973587:0;yarn start
+: 1567974807:0;cd ../
+: 1567974812:0;cd project-ants
+: 1567974814:0;code .
+: 1567975883:0;yarn add -D gh-pages
+: 1567975990:0;git init
+: 1567976005:0;git add .
+: 1567976034:0;git commit -m "initial commit"
+: 1567976044:0;git remote add origin git@github.com:ryanantonydunn/language-phrases.git
+: 1567976094:0;git remote set-url origin git@github.com:ryanantonydunn/language-phrases.git
+: 1567976100:0;git push -u origin master
+: 1567976145:0;git add .
+: 1567976149:0;git commit -m "fix readme"
+: 1567976151:0;git push
+: 1567976206:0;yarn deploy
+: 1567976248:0;yarn predeploy
+: 1567976253:0;yarn deploy
+: 1567976477:0;yarn predeploy
+: 1567976484:0;yarn deploy
+: 1567976615:0;git add .
+: 1567976632:0;git commit -m "package changes"
+: 1567976633:0;git push
+: 1568211471:0;cd ../
+: 1568211482:0;rm -rf language-learner
+: 1568211490:0;cd sitediary-app
+: 1568211495:0;git pull
+: 1568211515:0;rm -rf node_modules
+: 1568211522:0;yarn
+: 1568212029:0;react-native run-android
+: 1568212033:0;react-native start
+: 1568212045:0;/Users/ryandunn/Documents/projects/sitediary-app/node_modules/react-native/scripts/launchPackager.command ; exit;
+: 1568212185:0;yarn start --reset-cache
+: 1568212252:0;git pull
+: 1568212259:0;git stash
+: 1568212264:0;git pull
+: 1568212297:0;rm -rf node_modules
+: 1568212305:0;yarn
+: 1568212371:0;yarn start --reset-cache
+: 1568212404:0;react-native run-android
+: 1568212493:0;adb devices
+: 1568215053:0;code .
+: 1568215496:0;brew install yarn
+: 1568215697:0;brew install watchman
+: 1568215792:0;brew tap AdoptOpenJDK/openjdk
+: 1568215806:0;brew cask install adoptopenjdk8
+: 1568216268:0;react-native run-ios
+: 1568216608:0;pod install
+: 1568217057:0;oids
+: 1568217061:0;pods
+: 1568217105:0;sudo gem install cocoapods
+: 1568217175:0;pods install
+: 1568217216:0;pod setup
+: 1568218050:0;pod install
+: 1568218060:0;ls -la
+: 1568218066:0;cd ios
+: 1568218069:0;pod install
+: 1568218371:0;cd ../
+: 1568218374:0;react-native run-ios
+: 1568218863:0;yarn start --reset-cache
+: 1568283796:0;react-native log-ios
+: 1568291361:0;git checkout -b feature/iosanimations
+: 1568291375:0;git add app
+: 1568291379:0;git status
+: 1568291406:0;git commit -m "fix animations on ios"
+: 1568291431:0;git push -u origin feature/iosanimations
+: 1568292749:0;git checkout develop
+: 1568292755:0;git pull
+: 1568292959:0;git checkout feature/formcomponents
+: 1568292963:0;git pull
+: 1568292973:0;git pull origin develop
+: 1568293008:0;yarn
+: 1568293344:0;react-native run-android
+: 1568294844:0;rm -rf node_modules
+: 1568294879:0;yarn
+: 1568294903:0;rm -rf android/.gradle && rm -rf android/app/build
+: 1568294911:0;yarn start --reset-cache
+: 1568295096:0;react-native run-android
+: 1568295539:0;react-native run-ios
+: 1568296719:0;git pull origin develop
+: 1568296788:0;git commit
+: 1568302769:0;yarn add react-native-picker-select
+: 1568302857:0;yarn start --reset-cache
+: 1568302869:0;react-native run-ios
+: 1568303900:0;ls -la
+: 1568303905:0;cd ios
+: 1568303907:0;ls -la
+: 1568303913:0;pod install
+: 1568303927:0;cd ../
+: 1568303938:0;yarn start --reset-cache
+: 1568303946:0;react-native run-ios
+: 1568306137:0;git add app
+: 1568306143:0;git status
+: 1568306149:0;git add docs
+: 1568306155:0;git add package.lock
+: 1568306160:0;git add package.json
+: 1568306164:0;git add yarn.lock
+: 1568306184:0;git commit -m "fix datetime for ios and add separate date and time components"
+: 1568306187:0;git push
+: 1568369887:0;yarn add react-native-modal-datetime-picker
+: 1568370058:0;yarn start --reset-cache
+: 1568370066:0;react-native run-ios
+: 1568627709:0;yarn start --reset-cache
+: 1568629878:0;cdd .
+: 1568629881:0;cd ..
+: 1568629886:0;cd raildiary-web/
+: 1568629889:0;code .
+: 1568636795:0;react-native run-ios
+: 1568639739:0;git add .
+: 1568639751:0;git commit -m "temporary\
+
+: 1568639754:0;git commit -m "temporary"\
+
+: 1568639757:0;git status
+: 1568644729:0;git push
+: 1568644750:0;git checkout dvelop
+: 1568644754:0;git checkout develop
+: 1568644777:0;git pull
+: 1568644790:0;git checkout -b feature/input
+: 1568644977:0;yarn add react-native-picker-select
+: 1568645382:0;react-native run-ios
+: 1568645414:0;yarn start --reset-cache
+: 1568646140:0;git add .
+: 1568646151:0;git commit -m "input and select components"
+: 1568646158:0;git push -u origin feature/input
+: 1568647564:0;git checkout feature/formcomponents
+: 1568647572:0;git pull origin develop
+: 1568647970:0;git commit
+: 1568648124:0;git status
+: 1568648128:0;git pull origin develop
+: 1568649910:0;yarn
+: 1568649930:0;react-native run-ios
+: 1568649932:0;yarn start --reset-cache
+: 1568711586:0;code .
+: 1568711778:0;git add .
+: 1568711788:0;git commit -m "editorconfig file"
+: 1568711790:0;git push
+: 1568714513:0;yarn start --reset-cache
+: 1568714518:0;react-native run-ios
+: 1568715304:0;code .
+: 1568719961:0;yarn start --reset-cache
+: 1568720973:0;code .
+: 1568726364:0;yarn start --reset-cache
+: 1568730657:0;react-native run-android
+: 1568731074:0;react-native log-android
+: 1568732780:0;react-native run-ios
+: 1568735019:0;git add .
+: 1568735035:0;git commit -m "date and time pickers"
+: 1568735038:0;git push
+: 1568735119:0;git add .
+: 1568735121:0;git status
+: 1568735130:0;rm -rf node_modules
+: 1568735139:0;yarn
+: 1568735158:0;git status
+: 1568735161:0;git add .
+: 1568735177:0;git commit -m "date-fns version"
+: 1568735179:0;git push
+: 1568735247:0;git pull origin develop
+: 1568735334:0;git commit
+: 1568735357:0;git status
+: 1568735361:0;git commit
+: 1568735552:0;cd ./
+: 1568735555:0;cd .git
+: 1568735558:0;ls -la
+: 1568735578:0;rm .COMMIT_EDITMSG.swp
+: 1568735581:0;cd ../
+: 1568735582:0;git commit
+: 1568735631:0;git status
+: 1568735634:0;git push
+: 1568735851:0;yarn start --reset-cache
+: 1568735860:0;react-native run-ios
+: 1568735976:0;cd ios
+: 1568735978:0;ls -la
+: 1568735982:0;pod install
+: 1568736053:0;cd ../
+: 1568736056:0;react-native run-ios
+: 1568736077:0;yarn
+: 1568736088:0;yarn start --reset-cache
+: 1568736091:0;react-native run-ios
+: 1568737548:0;yarn start --reset-cache
+: 1568737881:0;react-native run-ios
+: 1568797189:0;git checkout master
+: 1568797193:0;git pull
+: 1568797207:0;yarn
+: 1568797230:0;docker ps
+: 1568797240:0;docker-compose up -d
+: 1568798207:0;yarn middleware
+: 1568798213:0;cd frontend
+: 1568798218:0;yarn middleware
+: 1568798478:0;docker-compose exec php-fpm bash
+: 1568799614:0;yarn middleware
+: 1568799680:0;npm rebuild node-sass
+: 1568799686:0;yarn middleware
+: 1568799869:0;docker-compose exec php-fpm bash
+: 1568799979:0;docker-compose stop && docker-compose start
+: 1568800004:0;yarn middleware
+: 1568800169:0;cd ../
+: 1568800176:0;rm -rf node_modules
+: 1568800187:0;ls -la
+: 1568800208:0;rm yarn.lock
+: 1568800212:0;cd frontend
+: 1568800225:0;rm -rf node_modules
+: 1568800261:0;yarn
+: 1568800295:0;yarn middleware
+: 1568800610:0;rm -rf var/cache
+: 1568800621:0;docker-compose exec php-fpm bash
+: 1568800683:0;yarn middleware
+: 1568803315:0;git status
+: 1568803354:0;git add .
+: 1568803384:0;git checkout -b hotfix/SIT-535
+: 1568803388:0;git status
+: 1568803418:0;git commit -m "date time combination in prepop"
+: 1568803442:0;git push -u origin hotfix/SIT-535
+: 1568821645:0;yarn test
+: 1568821654:0;git checkout develop
+: 1568821665:0;git stash
+: 1568821668:0;git checkout develop
+: 1568821673:0;git stash apply
+: 1568821772:0;git pull
+: 1568821792:0;git commit
+: 1568821817:0;git pull
+: 1568821826:0;yarn
+: 1568821831:0;git stash apply
+: 1568821844:0;yarn middleware
+: 1568824116:0;docker-compose down
+: 1568824215:0;docker-compose up -d
+: 1568824268:0;yarn middleware
+: 1568824514:0;docker-compose exec php-fpm bash
+: 1568885335:0;git push
+: 1568885342:0;git status
+: 1568886082:0;git add . 
+: 1568886087:0;git commit -m "cleanup"
+: 1568886090:0;git push
+: 1568888059:0;git checkout feature/SIT-539
+: 1568888070:0;git checkout -b feature/SIT-539
+: 1568888074:0;git add .
+: 1568888105:0;git commit -m "make prepop lists expandable"
+: 1568888116:0;git checkout develop
+: 1568888126:0;git pull
+: 1568889391:0;git checkout feature/SIT-539
+: 1568889402:0;git push -u origin hotfix/SIT-539
+: 1568889412:0;git push -u origin feature/SIT-539
+: 1568905247:0;git checkout develop
+: 1568905255:0;git pull
+: 1568905283:0;rm -rf node_modules
+: 1568905291:0;yarn
+: 1568905320:0;yarn start --reset-cache
+: 1568905325:0;react-native run-ios
+: 1568905435:0;cd ios
+: 1568905441:0;pod install
+: 1568905456:0;cd ../
+: 1568905460:0;react-native run-ios
+: 1568906716:0;yarn start --reset-cache
+: 1568907207:0;yarn lint
+: 1568970903:0;yarn start --reset-cache
+: 1568970912:0;react-native run-ios
+: 1568972702:0;cd ../
+: 1568972705:0;cd raildiary-web/
+: 1568972718:0;git checkout develop
+: 1568972726:0;docker ps
+: 1568972754:0;yarn middleware
+: 1568972759:0;cd frontend
+: 1568972807:0;yarn middleware
+: 1568974490:0;git pull
+: 1568974502:0;git status
+: 1568974561:0;git pull
+: 1568974582:0;import { Platform, Dimensions } from 'react-native';\
+\
+const { width, height } = Dimensions.get('window');\
+\
+export const isAndroid = Platform.OS === 'android';\
+export const isIOS = Platform.OS === 'ios';\
+export const isIPhoneX = (\
+    isIOS && !Platform.isPad && !Platform.isTVOS\
+    && (\
+        (height === 812 || width === 812)\
+        || (height === 896 || width === 896)\
+    )\
+);\
+\
+const DEV_ENDPOINT = isIOS\
+    ? 'http://localhost:1337'\
+    : 'http://10.0.2.2:1337'\;\
+\
+export const ENDPOINT = __DEV__\
+    ? DEV_ENDPOINT\
+    : 'https://app.raildiary.com'\;\
+\
+export const isTablet = width >= 576; // 576 taken 
+: 1568977364:0;git pull
+: 1568977377:0;yarn start --reset-cache
+: 1568983345:0;cd ../
+: 1568983358:0;cd react-ts-boilerplate
+: 1568983362:0;code .
+: 1568983415:0;yarn add -D @babel/preset-env
+: 1568984190:0;yarn start
+: 1568984205:0;yarn
+: 1568984209:0;yarn start
+: 1569845294:0;cd ../raildiary-web
+: 1569845297:0;git pull
+: 1569845306:0;yarn
+: 1569846697:0;docker ps
+: 1569846707:0;docker-compose up -d
+: 1569846723:0;docker-compose exec php-fpm bash
+: 1569846885:0;xcrun simctl list
+: 1569847044:0;cd frontend
+: 1569847048:0;code .
+: 1569847589:0;yarn middleware
+: 1569847626:0;yarn clean
+: 1569847648:0;rm -rf node_modules
+: 1569847655:0;cd../
+: 1569847656:0;cd ../
+: 1569847660:0;git pull
+: 1569847669:0;cd frontend
+: 1569847672:0;yarn
+: 1569847790:0;yarn middleware
+: 1569858589:0;git stash
+: 1569858596:0;git checkout master
+: 1569858600:0;git pull
+: 1569858717:0;git stash apply
+: 1569858721:0;git add .
+: 1569858722:0;git status
+: 1569858758:0;git checkout -b hotfix/SIT-554
+: 1569858764:0;git add .
+: 1569858778:0;git commit -m "datetime pickers on ios bug"
+: 1569858788:0;git push -u origin hotfix/SIT-553
+: 1569858791:0;git push -u origin hotfix/SIT-554
+: 1570011009:0;cd ~/Documents/projects/raildiary-web
+: 1570011013:0;cd ../
+: 1570011018:0;cd sitediary-app
+: 1570011024:0;git push
+: 1570011034:0;git pull
+: 1570011060:0;git stash
+: 1570011063:0;git pull
+: 1570011075:0;yarn
+: 1570011096:0;brew upgrade ayrn
+: 1570011102:0;brew upgrade yarn
+: 1570013321:0;yarn
+: 1570013333:0;yarn start --reset-cache
+: 1570013371:0;react-native run-android
+: 1570013798:0;cd ../
+: 1570013801:0;cd raildiary-web/
+: 1570013807:0;git checkout develop
+: 1570013811:0;git pull
+: 1570013819:0;docker ps
+: 1570013831:0;docker-compose up -d
+: 1570014066:0;docker-compose exec php-fpm bash
+: 1570014728:0;react-native run-android
+: 1570014766:0;yarn clean
+: 1570014775:0;yarn
+: 1570015110:0;yarn start --reset-cache
+: 1570015302:0;react-native run-android
+: 1570015448:0;yarn add react-native-dropdown-autocomplete
+: 1570015474:0;code .
+: 1570022916:0;react-native run-android
+: 1570023083:0;yarn start --reset-cache
+: 1570024036:0;code .
+: 1570094251:0;git checkout -b feature/autocomplete
+: 1570105300:0;react-native run-ios
+: 1570105977:0;git pull origin develop
+: 1570105996:0;git add .
+: 1570106004:0;git commit -m "temp"]
+: 1570106007:0;git pull origin develop
+: 1570106134:0;yarn start --reset-cache
+: 1570109052:0;git commit -m "temp"
+: 1570109103:0;git checkout develop
+: 1570109107:0;git pull
+: 1570109193:0;docker ps
+: 1570110849:0;git add .
+: 1570110861:0;git commit -m "feature/abstractfield-number"
+: 1570110885:0;git checkout -b feature/abstractfield-number
+: 1570110888:0;git add .
+: 1570110896:0;git commit -m "number field"
+: 1570110908:0;git push -u origin feature/abstractfield-number
+: 1570111426:0;git checkout develop
+: 1570111428:0;git pull
+: 1570111456:0;git checkout -b feature/abstractfield-datetime
+: 1570111838:0;yarn start --reset-cache
+: 1570112096:0;code .
+: 1570118005:0;git add /
+: 1570118009:0;git add .
+: 1570118033:0;git commit -m "abstractfield datetime and nrw"
+: 1570118041:0;git push -u origin feature/abstractfield-datetime
+: 1570118151:0;git checkout develop
+: 1570118155:0;git pull
+: 1570123775:0;git checkout -b feature/abstractfield-select
+: 1570123778:0;git add .
+: 1570123795:0;git commit -m "abstractfield select temp"
+: 1570123801:0;git push -u origin feature/abstractfield-select
+: 1570184812:0;git commit -m "select with disabled datasources"
+: 1570184815:0;git push
+: 1570190598:0;git checkout feature/abstractfield-datetime
+: 1570190785:0;git add .
+: 1570190807:0;git commit -m "remove classname and fix error"
+: 1570190809:0;git push
+: 1570190821:0;git checkout develop
+: 1570190828:0;git pull
+: 1570190844:0;git checkout -b feature/abstractfield-tab
+: 1570191867:0;code .
+: 1570193667:0;git commit -m "abstractfield tab"
+: 1570193686:0;git push -u origin feature/abstractfield-tab
+: 1570194142:0;git checkout develop
+: 1570194144:0;git pull
+: 1570194160:0;git checkout -b feature/abstractfield-list
+: 1570196084:0;code .
+: 1570448934:0;yarn start --reset-cache
+: 1570448946:0;react-native run-android
+: 1570449002:0;yarn clean
+: 1570449009:0;yarn
+: 1570449035:0;yarn start --reset-cache
+: 1570449039:0;react-native run-android
+: 1570449101:0;docker ps
+: 1570449112:0;docker-compose up -d
+: 1570454762:0;yarn start --reset-cache
+: 1570458461:0;react-native log-android
+: 1570462370:0;yarn start
+: 1570462376:0;cd fro
+: 1570462380:0;cd frontend
+: 1570462387:0;yarn start
+: 1570462605:0;git pull
+: 1570462614:0;rm -rf node_modules
+: 1570462623:0;yarn
+: 1570462814:0;yarn start
+: 1570462918:0;cd ../
+: 1570462922:0;docker ps
+: 1570462934:0;docker-compose exec php-fpm bash
+: 1570463020:0;docker-compose stop && docker-compose start
+: 1570463276:0;yarn start
+: 1570463283:0;code .
+: 1570463306:0;yarn middleware
+: 1570464045:0;react-native log-android
+: 1570464464:0;react-native run-android
+: 1570464790:0;react-native log-android
+: 1570544277:0;docker ps
+: 1570544434:0;docker-compose start -d
+: 1570544526:0;docker ps
+: 1570544548:0;docker-compose up -d
+: 1570544643:0;docker-compose exec php-fpm bash
+: 1570545140:0;docker-compose stop && docker-compose start
+: 1570545146:0;react-native log-android
+: 1570545160:0;yarn start --reset-cache
+: 1570545272:0;react-native run-android
+: 1570545276:0;react-native log-android
+: 1570546746:0;git pull origin develop
+: 1570546768:0;git add .
+: 1570546783:0;git commit -m "abstractfield list"
+: 1570546786:0;git pull origin develop
+: 1570546855:0;git commit
+: 1570551899:0;git status
+: 1570552687:0;code .
+: 1570627939:0;git add . 
+: 1570627954:0;git commit -m "abstractfield list"
+: 1570627956:0;git push
+: 1570627974:0;git push -u origin feature/abstractfield-list
+: 1570629789:0;git commit -m "count field"
+: 1570629791:0;git push
+: 1570632259:0;git commit -m "cleanup"
+: 1570632261:0;git push
+: 1570699381:0;react-native run-android
+: 1570699512:0;git checkout -b feature/abstractfield-allocation
+: 1570699515:0;git add .
+: 1570699521:0;git commit -m "allocation"
+: 1570699534:0;git checkout feature/abstractfield-list
+: 1570699541:0;git pull origin develop
+: 1570699591:0;git commit
+: 1570699642:0;yarn clean
+: 1570699653:0;yarn
+: 1570699731:0;yarn start --reset-cache
+: 1570699736:0;react-native run-android
+: 1570701363:0;git commit -m "cleanup"
+: 1570701364:0;git push
+: 1570702014:0;git checkout feature/abstractfield-allocation
+: 1570702034:0;git fetch --all
+: 1570702044:0;git rebase develop
+: 1570702096:0;git rebase --continue
+: 1570708344:0;git rebase --abort
+: 1570708357:0;git log
+: 1570708393:0;git checkout develop
+: 1570708394:0;git pull
+: 1570708416:0;git checkout -b feature/abstractfield-alocation
+: 1570708429:0;git cherry-pick e5a4a99778d4aaf24880ab173a3552f7f514185b
+: 1570714374:0;yarn start --reset-cache
+: 1570718111:0;react-native log-android
+: 1570721344:0;yarn start --reset-cache
+: 1570722293:0;react-native run-android
+: 1570726684:0;git commit -m "allocation visuals"
+: 1570726695:0;git push -u origin feature/abstractfield-alocation
+: 1570785475:0;git commit -m "reset pagination"
+: 1570785477:0;git push
+: 1570785611:0;git commit -m "reset pagination"
+: 1570785613:0;git push
+: 1570787286:0;git checkout develop
+: 1570787288:0;git pull
+: 1570787316:0;git checkout -b feature/abstractfield-time
+: 1570789314:0;docker-compose exec php-fpm bash
+: 1570790584:0;cd ../../
+: 1570790587:0;git clone https://github.com/apollographql/fullstack-tutorial/
+: 1570790596:0;ls
+: 1570790639:0;mv fullstack-tutorial apollo-tutorial
+: 1570790642:0;cd apollo-tutorial
+: 1570792261:0;ls
+: 1570792267:0;ls start
+: 1570792274:0;cd start
+: 1570792285:0;cd server
+: 1570792286:0;yarn
+: 1570792306:0;code .
+: 1570799085:0;react-native log-android
+: 1570810458:0;docker-compose down]
+: 1570810462:0;docker-compose down
+: 1571044938:0;cd ~/Documents/projects/raildiary-web
+: 1571044956:0;cd ../sitediary-app
+: 1571045001:0;code .
+: 1571045166:0;git commit -m "dual date time pickers"
+: 1571045169:0;git push
+: 1571045187:0;git push -u origin feature/abstractfield-time
+: 1571046739:0;git pull origin develop
+: 1571046817:0;git push
+: 1571046845:0;git checkout develop
+: 1571046849:0;git pull
+: 1571047818:0;yarn start --reset-cache
+: 1571047825:0;react-native run-android
+: 1571048291:0;docker ps
+: 1571048314:0;docker-compose up -d
+: 1571048348:0;docker-compose exec php-fpm bash
+: 1571048782:0;clean-pimcore
+: 1571053095:0;yarn start --reset-cache
+: 1571053130:0;react-native run-android
+: 1571053180:0;yarn
+: 1571053191:0;yarn start --reset-cache
+: 1571053298:0;git fetch --all
+: 1571053315:0;git checkout develop_SIT-569
+: 1571053330:0;git stash
+: 1571053335:0;git checkout develop_SIT-569
+: 1571053354:0;yarn start --reset-cache
+: 1571053395:0;yarn
+: 1571053402:0;yarn start --reset-cache
+: 1571053512:0;git checkout develop
+: 1571053515:0;git pull
+: 1571053529:0;react-native run-android
+: 1571053540:0;yarn clean
+: 1571053568:0;yarn
+: 1571053590:0;yarn start --reset-cache
+: 1571053597:0;rea
+: 1571053604:0;react-native run-android\
+: 1571053606:0;react-native run-android
+: 1571060040:0;code .
+: 1571066614:0;cd ../
+: 1571066616:0;ls
+: 1571066618:0;cd apollo-tutorial
+: 1571066624:0;ls
+: 1571066627:0;cd start
+: 1571066634:0;cd server
+: 1571066644:0;yarn
+: 1571066662:0;code .
+: 1571067659:0;yarn start
+: 1571067666:0;npm start
+: 1571067685:0;yarn
+: 1571067706:0;npm install
+: 1571067792:0;npm start
+: 1571068045:0;npm install apollo-datasource-rest --save
+: 1571151633:0;npm start
+: 1571221444:0;code .
+: 1571221458:0;docker ps
+: 1571221470:0;docker-compose up -d
+: 1571222216:0;docker-compose exec php-fpm bash
+: 1571223052:0;yarn start --reset-cache
+: 1571223056:0;react-native run-android\
+: 1571053606:0;react-native run-android
+: 1571223065:0;\
+: 1571053606:0;react-native run-android
+: 1571223077:0;react-native run-android
+: 1571228088:0;react-native log-android
+: 1571231190:0;git commit -m "abstractfield multiimage"
+: 1571231246:0;git reset --soft HEAD~1
+: 1571231249:0;git status
+: 1571231254:0;git log
+: 1571231283:0;git checkout -b feature/abstractfield-multiimage
+: 1571231286:0;git status
+: 1571231288:0;git add .
+: 1571231291:0;git commit -m "abstractfield multiimage"
+: 1571231304:0;git push -u origin feature/abstractfield-multiimage
+: 1571231884:0;code .
+: 1571238375:0;git commit -m "add intermediate state to handle updates to the fields"
+: 1571238378:0;git push
+: 1571244008:0;react-native run-ios
+: 1571245164:0;xcrun simctl list devices
+: 1571245245:0;react-native run-ios --simulator="iPhone 11 Pro Max"
+: 1571245560:0;cd ios
+: 1571245564:0;pod install
+: 1571245569:0;ls
+: 1571245583:0;cd pods
+: 1571245587:0;cd ../
+: 1571245588:0;ls
+: 1571245592:0;cd Pods
+: 1571245595:0;pod install
+: 1571245601:0;cd ..
+: 1571245657:0;sudo gem install cocoapods
+: 1571245719:0;pod install
+: 1571245744:0;cd ../
+: 1571245747:0;react-native run-ios --simulator="iPhone 11 Pro Max"
+: 1571305536:0;git checkout develop
+: 1571305546:0;git pull
+: 1571306629:0;yarn start --reset-cache
+: 1571306797:0;yarn
+: 1571306832:0;yarn start --reset-cache
+: 1571307754:0;cd frontend
+: 1571307759:0;yarn middleware
+: 1571308115:0;git checkout -b develop_SIT-568
+: 1571308118:0;git add .
+: 1571308119:0;git status
+: 1571308134:0;git commit -m "profile picture component"
+: 1571308150:0;git push -u origin develop_SIT-568
+: 1571312693:0;npm i -g typescript@3.7.0
+: 1571318149:0;git checkout develop
+: 1571318155:0;git stash
+: 1571318159:0;git checkout develop
+: 1571318176:0;git checkout -b develop_SIT-577
+: 1571318181:0;git stash apply
+: 1571318185:0;git add .
+: 1571318201:0;git commit -m "back buttons back alright"
+: 1571318223:0;git push -u origin develop_SIT-577
+: 1571318372:0;git push
+: 1571324167:0;git checkout
+: 1571324171:0;git checkout develop
+: 1571324176:0;git pull
+: 1571324230:0;git checkout -b develop_SIT-567
+: 1571324635:0;git push -u origin develop_SIT-567
+: 1571324802:0;git checkout develop
+: 1571324804:0;git pull
+: 1571331585:0;yarn start --reset-cache
+: 1571390677:0;react-native run-android
+: 1571390854:0;git pull
+: 1571390860:0;yarn  clean
+: 1571390870:0;yarn
+: 1571390968:0;yarn start --reset-cache
+: 1571390973:0;react-native run-android
+: 1571391819:0;git status
+: 1571391835:0;git checkout -b layout_experiment
+: 1571391837:0;git add .
+: 1571391850:0;git commit -m "layout"
+: 1571391864:0;git checkout develop
+: 1571391866:0;git pull
+: 1571392521:0;git status
+: 1571392748:0;docker ps
+: 1571392758:0;docker-compose up -d
+: 1571399464:0;react-native log-android
+: 1571400858:0;git status
+: 1571401168:0;react-native run-android
+: 1571401593:0;git checkout -b develop_SIT-578
+: 1571401598:0;git add .
+: 1571401604:0;git commit -m "cleanup"
+: 1571401615:0;git push -u origin develop_SIT-578
+: 1571404365:0;git status
+: 1571404371:0;git checkout develop
+: 1571404373:0;git pull
+: 1571404449:0;git checkout -b develop_SIT-582
+: 1571404538:0;code .
+: 1571405098:0;yarn start --reset-cache
+: 1571405490:0;yarn clean
+: 1571405501:0;yarn
+: 1571405526:0;yarn start --reset-cache
+: 1571405571:0;react-native run-android
+: 1571409254:0;yarn middleware
+: 1571409630:0;rm -rf node_modules
+: 1571409645:0;yarn
+: 1571409712:0;yarn middleware
+: 1571410042:0;react-native log-android
+: 1571649739:0;yarn start --reset-cache
+: 1571649747:0;react-native run-android
+: 1571650885:0;code .
+: 1571651532:0;yarn start --reset-cache
+: 1571653253:0;react-native log-android
+: 1571672699:0;cd ../
+: 1571672703:0;code .
+: 1571736997:0;git push -u origin develop_SIT-582
+: 1571752639:0;git checkout develop_SIT-577
+: 1571752646:0;git pull origin develop
+: 1571752934:0;git commit
+: 1571755004:0;cd ../
+: 1571755090:0;ls
+: 1571755094:0;cd apollo-tutorial
+: 1571755098:0;code .
+: 1571755214:0;npm start
+: 1571755222:0;cd start
+: 1571755224:0;cd ser
+: 1571755228:0;cd server
+: 1571755233:0;npm start
+: 1571756940:0;npx apollo service:push --endpoint=http://localhost:4000
+: 1571757075:0;npx apollo service:check --endpoint=http://localhost:4000
+: 1571757271:0;cd ../
+: 1571757280:0;cd client
+: 1571757282:0;npm install
+: 1571758031:0;npm start
+: 1571760839:0;cd ../
+: 1571760842:0;..
+: 1571760889:0;git remote add origin git@github.com:ryanantonydunn/apollo-test.git
+: 1571760929:0;git remote set-url origin git@github.com:ryanantonydunn/apollo-test.git
+: 1571760946:0;git push -u origin master
+: 1571760984:0;git push
+: 1571822136:0;code .
+: 1571822830:0;cd ../.
+: 1571822833:0;cd ../
+: 1571822837:0;cd projects
+: 1571822838:0;ls
+: 1571822844:0;cd react-ts-boilerplate
+: 1571822846:0;code .
+: 1571824232:0;git checkout develop
+: 1571824238:0;git stash
+: 1571824241:0;git checkout develop
+: 1571824246:0;git pull
+: 1571824307:0;git checkout develop_SIT-582
+: 1571824314:0;git pull origin develop
+: 1571825093:0;docker ps
+: 1571825104:0;docker-compose up -d
+: 1571825521:0;docker-compose exec php-fpm bash
+: 1571826236:0;docker-compose stop && docker-compose start
+: 1571828340:0;yarn start --reset-cache
+: 1571828380:0;react-native run-android
+: 1571836174:0;react-native log-android
+: 1571843819:0;react-native run-android
+: 1571844751:0;react-native run-ios --simulator="iPhone 11 Pro Max"
+: 1571845249:0;yarn cleanios
+: 1571845256:0;react-native run-ios --simulator="iPhone 11 Pro Max"
+: 1571845379:0;yarn clean
+: 1571845389:0;yarn cleanios
+: 1571845392:0;yarn
+: 1571845572:0;cd ios
+: 1571845574:0;pod install
+: 1571845590:0;brew upgrade yarn
+: 1571845839:0;cd ../
+: 1571845844:0;yarn start --reset-cache
+: 1571845848:0;react-native run-ios --simulator="iPhone 11 Pro Max"
+: 1571847624:0;git push
+: 1571847677:0;git pull origin develop
+: 1571847736:0;git push
+: 1571847824:0;code .
+: 1571847860:0;git status
+: 1571847862:0;git add .
+: 1571847868:0;git commit -m "small"
+: 1571847869:0;git push
+: 1571848075:0;yarn clean
+: 1571916942:0;cd ../
+: 1571917047:0;npx create-react-app testing-course
+: 1571917230:0;ls
+: 1571917240:0;cd testing-course
+: 1571917266:0;npm test
+: 1571917326:0;code .
+: 1571917443:0;npm test
+: 1571917782:0;git checkout develop
+: 1571917785:0;git pull
+: 1571918004:0;react-native log-android
+: 1571918014:0;react-native run-android
+: 1571919566:0;git checkout -b develop_SIT-616
+: 1571919573:0;git add app/views
+: 1571919575:0;git status
+: 1571919587:0;git commit -m "sort records by last edited"
+: 1571919601:0;git push -u origin develop_SIT-616
+: 1571919621:0;git checkout develop
+: 1571919623:0;git pull
+: 1571919711:0;git  checkout -b develop_SIT-615
+: 1571920376:0;yarn start --reset-cache
+: 1571920379:0;react-native run-android
+: 1571922336:0;git status
+: 1571922345:0;git add app/views
+: 1571922361:0;git  commit -m "make list titles not appear if there isn't a label"
+: 1571922369:0;git push -u origin develop_SIT-615
+: 1571922473:0;git checkout develop
+: 1571922483:0;git  checkout -b develop_SIT-613
+: 1571929052:0;git checkout develop
+: 1571929055:0;git pull
+: 1571929064:0;git stash
+: 1571929066:0;git pull
+: 1571929082:0;git stash apply
+: 1571929120:0;git status
+: 1571929372:0;git checkout -b develop_SIT-606
+: 1571997934:0;docker-compose up -d
+: 1571998131:0;docker ps
+: 1571998141:0;docker-compose exec php-fpm bash
+: 1572009451:0;npm test
+: 1572009475:0;code .
+: 1572009483:0;npm test
+: 1572009522:0;git add .
+: 1572009555:0;git commit -m "test commit"
+: 1572009562:0;npm test
+: 1572009781:0;npm i ajv
+: 1572009974:0;npm i --save-dev jest enzyme
+: 1572010029:0;npm i --save-dev jest-enzyme enzyme-adapter-react-16
+: 1572010214:0;npm test
+: 1572012402:0;cd ../
+: 1572012420:0;git clone git@github.com:flyrightsister/udemy-react-testing-projects.git
+: 1572012505:0;cd udemy-react-testing-projects
+: 1572012510:0;cd click-counter
+: 1572012538:0;cd ../
+: 1572012540:0;code .
+: 1572012641:0;cd ../
+: 1572012647:0;cd testing-course
+: 1572012658:0;code .
+: 1572012741:0;cd counter
+: 1572013057:0;npm test
+: 1572015912:0;npm install --save-dev babel-plugin-react-remove-properties
+: 1572015945:0;npm run eject
+: 1572015957:0;git add .
+: 1572015966:0;git status
+: 1572015972:0;git add .
+: 1572015977:0;cd ../
+: 1572015982:0;git add .
+: 1572016029:0;git init
+: 1572016041:0;rm -rf .git
+: 1572016044:0;git iniut
+: 1572016046:0;git init
+: 1572016049:0;git add .
+: 1572016055:0;git commit -m "initial commit"
+: 1572016058:0;cd counter
+: 1572016065:0;npm run eject
+: 1572016476:0;npm run test
+: 1572016519:0;rm -rf node_modules
+: 1572016527:0;npm install
+: 1572016564:0;npm run test
+: 1572017462:0;code .
+: 1572019038:0;npm start
+: 1572019777:0;npm run test
+: 1572020571:0;cd ../
+: 1572020577:0;cd udemy-react-testing-projects
+: 1572020580:0;cd ../
+: 1572020582:0;cd udemy-react-testing-projects
+: 1572020585:0;code .
+: 1572261102:0;react-native run-android
+: 1572261110:0;yarn start --reset-cache
+: 1572261116:0;/Users/ryandunn/Documents/projects/sitediary-app/node_modules/react-native/scripts/launchPackager.command ; exit;
+: 1572261127:0;docker ps
+: 1572263460:0;git push -u origin develop_SIT-606
+: 1572263620:0;git checkout develop
+: 1572263622:0;git pull
+: 1572263639:0;git checkout -b develop_SIT-611
+: 1572263877:0;git push -u origin develop_SIT-611
+: 1572263949:0;git checkout developo
+: 1572263951:0;git checkout develop
+: 1572263963:0;git checkout -b develop_SIT-608
+: 1572264144:0;git push -u origin develop_SIT-608
+: 1572264185:0;git checkout develop
+: 1572264208:0;git merge develop_SIT-606
+: 1572264223:0;git merge develop_SIT-608
+: 1572264238:0;git merge develop_SIT-611
+: 1572264258:0;git merge develop_SIT-615
+: 1572264263:0;git merge develop_SIT-616
+: 1572264267:0;git log
+: 1572264274:0;git push
+: 1572268428:0;react-native log-android
+: 1572268437:0;yarn start --reset-cache
+: 1572268443:0;react-native log-android
+: 1572270133:0;git pull
+: 1572270143:0;git fetch --all
+: 1572270148:0;git help
+: 1572270192:0;git branch -r
+: 1572270264:0;git checkout develop
+: 1572270267:0;git pull
+: 1572270297:0;git checkout feature/filters_SIT-594_frontend
+: 1572270301:0;git stash
+: 1572270303:0;git checkout feature/filters_SIT-594_frontend
+: 1572270306:0;git pull
+: 1572270420:0;yarn middleware
+: 1572270451:0;cd frontend
+: 1572270454:0;yarn middleware
+: 1572270644:0;rm -rf node_modules
+: 1572270663:0;yarn
+: 1572270710:0;yarn middleware
+: 1572271549:0;git push
+: 1572272700:0;react-native run-android
+: 1572272705:0;yarn start --reset-cache
+: 1572272711:0;/Users/ryandunn/Documents/projects/sitediary-app/node_modules/react-native/scripts/launchPackager.command ; exit;
+: 1572276445:0;yarn start --reset-cache
+: 1572276505:0;ps
+: 1572276525:0;yarn start --reset-cache
+: 1572276529:0;react-native run-android
+: 1572277494:0;react-native log-android
+: 1572281801:0;git push
+: 1572358284:0;cd ../
+: 1572358286:0;ls
+: 1572358295:0;cd testing-course
+: 1572358297:0;ls
+: 1572358319:0;cd counter
+: 1572358321:0;ls
+: 1572358325:0;npm run test
+: 1572358341:0;npm run start
+: 1572358396:0;git push
+: 1572358495:0;cd ../
+: 1572358497:0;git init
+: 1572358501:0;git remote add origin git@github.com:ryanantonydunn/testing-course.git
+: 1572358508:0;git push -u origin master
+: 1572368071:0;mkdir jotto
+: 1572368080:0;rm jotto
+: 1572368088:0;rm -rf jotto
+: 1572368097:0;create-react-app jotto
+: 1572368104:0;cd ../
+: 1572368109:0;create-react-app jotto
+: 1572368122:0;cd testing-course
+: 1572368128:0;npx create-react-app jotto
+: 1572368302:0;cd jotto
+: 1572368399:0;npm i --save-dev jest-enzyme enzyme-adapter-react-16 jest enzyme
+: 1572368490:0;cd ../
+: 1572368493:0;git add .
+: 1572368507:0;git commit -m "add jotto component"
+: 1572368510:0;git push
+: 1572368523:0;cd jotto
+: 1572368575:0;npm run testy
+: 1572368577:0;npm run test
+: 1572370108:0;cd ../
+: 1572370112:0;git add .
+: 1572370129:0;git commit -m 'congrats component'
+: 1572370131:0;git push
+: 1572370263:0;cd jotto
+: 1572370280:0;npm i -s prop-types
+: 1572370426:0;npm i --save-dev check-prop-types
+: 1572371621:0;npm run test
+: 1572371630:0;cd ../
+: 1572371648:0;git add .
+: 1572371662:0;git commit -m 'proptypes and defaultprops
+: 1572371664:0;git commit -m 'proptypes and defaultprops'
+: 1572371666:0;git push
+: 1572433169:0;git pull
+: 1572433203:0;git checkout develop_SIT-577
+: 1572433212:0;git stash]
+: 1572433215:0;git stash
+: 1572433217:0;git checkout develop_SIT-577
+: 1572433223:0;git pull origin develop
+: 1572433238:0;git stash apply
+: 1572449736:0;git push
+: 1572453618:0;yarn start --reset-cache
+: 1572453693:0;code .
+: 1572453699:0;react-native run-android
+: 1572453703:0;react-native log-android
+: 1572454753:0;react-native run-android
+: 1572458068:0;git push
+: 1572458821:0;react-native run-android
+: 1572459560:0;git push
+: 1572459569:0;git checkout develop
+: 1572459582:0;git merge develop_SIT-577
+: 1572459587:0;git push
+: 1572459663:0;git pull
+: 1572460077:0;git push
+: 1572520261:0;yarn clean-android
+: 1572520272:0;yarn clean-modules
+: 1572521165:0;react-native run-android
+: 1572521167:0;yarn start --reset-cache
+: 1572521178:0;/Users/ryandunn/Documents/projects/sitediary-app/node_modules/react-native/scripts/launchPackager.command ; exit;
+: 1572527016:0;code .
+: 1572540753:0;npm run test
+: 1572541725:0;git add .
+: 1572541737:0;git commit -m "start guessed words component"
+: 1572541738:0;git push
+: 1572541746:0;npm test
+: 1572544336:0;cd jo
+: 1572544340:0;cd jotto
+: 1572544343:0;npm start
+: 1572544693:0;cd ../
+: 1572544696:0;git add .
+: 1572544706:0;git commit -m "guessed words component"
+: 1572544708:0;git push
+: 1572545527:0;git add .
+: 1572545532:0;git commit -m "compare letters"
+: 1572545535:0;git push
+: 1572603601:0;yarn start --reset-cache
+: 1572603609:0;react-native run-ios --simulator="iPhone 11 Pro Max"
+: 1572604946:0;code .
+: 1572609976:0;react-native run-android
+: 1572610221:0;react-native log-android
+: 1572611907:0;git push
+: 1572615142:0;git checkout -b develop_SIT-566
+: 1572615191:0;yarn add react-native-datepicker
+: 1572619766:0;git push
+: 1572619776:0;git push -u origin develop_SIT-566
+: 1572620550:0;git log
+: 1572620561:0;git checkout develop
+: 1572620567:0;git cherry-pick 030af1daf64f29b3ed3e511f24f976c11d837e53
+: 1572620571:0;git push
+: 1572628266:0;npm i --save redux react-redux
+: 1572628368:0;code .
+: 1572628798:0;npm start
+: 1572628882:0;git add .
+: 1572628889:0;git commit -m "start redux"
+: 1572861681:0;yarn start --reset-cache
+: 1572861779:0;react-native log-android
+: 1572861786:0;react-native run-android
+: 1572861996:0;docker ps
+: 1572862006:0;docker-compose up -d
+: 1572862214:0;yarn start --reset-cache
+: 1572862621:0;git push
+: 1572862641:0;git status
+: 1572862647:0;git log
+: 1572862651:0;git pull
+: 1572862656:0;git push
+: 1572862670:0;git log
+: 1572862804:0;git pull
+: 1572862945:0;git checkout -b "screenwidth fix"
+: 1572862978:0;git checkout -b screenwidth
+: 1572862982:0;git log
+: 1572862998:0;git push -u origin screenwidth
+: 1572863405:0;docker-compose up -d
+: 1572863419:0;yarn start --reset-cache
+: 1572863551:0;react-native run-android
+: 1572865224:0;docker ps
+: 1572865232:0;docker-compose up -d
+: 1572867013:0;git checkout develop
+: 1572867018:0;git pull
+: 1572867074:0;git checkout -b develop_SIT-639
+: 1572867644:0;react-native run-ios --simulator="iPhone 11 Pro Max"
+: 1572867887:0;react-native run-android
+: 1572867972:0;git push
+: 1572867981:0;git push -u origin develop_SIT-639
+: 1572869087:0;git checkout develop
+: 1572869094:0;git checkout -b develop_SIT-640
+: 1572870040:0;git push -u origin develop_SIT-640
+: 1572875089:0;code .
+: 1572883521:0;git checkout develop
+: 1572883524:0;git pull
+: 1572883545:0;git checkout -b develop_SIT-522
+: 1572887562:0;yarn start --reset-cache
+: 1572887771:0;react-native run-android
+: 1572887899:0;react-native log-android
+: 1572952349:0;yarn start --reset-cache
+: 1572954722:0;git push -u origin develop_SIT-522
+: 1572955394:0;git push
+: 1572968117:0;git log
+: 1572968120:0;git push
+: 1572971668:0;git checkout develop
+: 1572971672:0;git pull
+: 1572971712:0;git checkout -- .
+: 1572971834:0;cd ../
+: 1572971839:0;cd sitediary-app
+: 1572971844:0;yarn clear
+: 1572971847:0;yarn clean
+: 1572971864:0;docker-compose down
+: 1572971870:0;cd ../
+: 1572971874:0;cd raildiary-web/
+: 1572971878:0;docker-compose down
+: 1573036731:0;git checkout
+: 1573036739:0;git checkout develop
+: 1573036742:0;git stash
+: 1573036748:0;git checkout develop
+: 1573036753:0;git pull
+: 1573036870:0;cd frontend
+: 1573036875:0;rm -rf node_modules
+: 1573036884:0;yarn
+: 1573036934:0;cd ../
+: 1573036937:0;docker ps
+: 1573037196:0;docker-compose up -d
+: 1573037378:0;docker-compose exec php-fpm bash
+: 1573037624:0;npm view react
+: 1573038241:0;docker-compose stop && docker-compose start
+: 1573038452:0;cd frontend
+: 1573038455:0;yarn middleware
+: 1573043443:0;npm rebuild node-sass
+: 1573043473:0;yarn middleware
+: 1573043572:0;code .
+: 1573043591:0;rm -rf node_modules
+: 1573043606:0;yarn
+: 1573043689:0;yarn middleware
+: 1573045247:0;yarn lint --fix
+: 1573048533:0;cd ../
+: 1573048548:0;docker-compose exec php-fpm bash
+: 1573049957:0;git checkout -b develop_SIT-655
+: 1573050001:0;git push -u origin develop_SIT-655
+: 1573131576:0;git pull
+: 1573131598:0;git checkout -b develop_SIT-654
+: 1573132246:0;git fetch --all
+: 1573132404:0;git push -u origin develop_SIT-654
+: 1573133078:0;git checkout develop
+: 1573133080:0;git pull
+: 1573133111:0;yarn start --reset-cache
+: 1573133120:0;react-native run-android
+: 1573134315:0;react-native log-android
+: 1573134626:0;react-native run-android
+: 1573136297:0;react-native log-android
+: 1573145159:0;git checkout -b develop_SIT-612
+: 1573145226:0;git push -u origin develop_SIT-612
+: 1573145385:0;git push
+: 1573145574:0;react-native run-ios --simulator="iPhone 11 Pro Max"
+: 1573147023:0;react-native run-android
+: 1573147033:0;react-native log-android
+: 1573148420:0;git push
+: 1573226697:0;cd frontend
+: 1573226715:0;yarn middleware
+: 1573226719:0;cd ../
+: 1573226724:0;docker ps
+: 1573226741:0;docker-compose up -d
+: 1573228892:0;cd ../
+: 1573228895:0;ls
+: 1573228905:0;cd testing-course
+: 1573228907:0;cd jotto
+: 1573228908:0;ls
+: 1573228911:0;code .
+: 1573229272:0;npm run test
+: 1573229365:0;cd ../
+: 1573229368:0;cd testing-course
+: 1573229370:0;cd jotto
+: 1573229377:0;cd ../
+: 1573229379:0;git add .
+: 1573229386:0;git commit -m "add first redux actions"
+: 1573230029:0;git add .
+: 1573230048:0;git commit -m "add basic reducer testing""
+: 1573230050:0;git commit -m "add basic reducer testing"
+: 1573233035:0;git add .
+: 1573233049:0;git commit -m "create input component"
+: 1573233870:0;git add .
+: 1573233888:0;git commit -m "not successful state on input component"
+: 1573235144:0;git add .
+: 1573235163:0;git commit -m "first part of success input component state"
+: 1573481770:0;yarn start --reset-cache
+: 1573481783:0;react-native run-android
+: 1573481789:0;react-native log-android
+: 1573485789:0;git status
+: 1573485801:0;git add app/base/collapse.js
+: 1573485803:0;git status
+: 1573485823:0;git commit -m "clean up event listeners in the collapse component"
+: 1573485827:0;git push
+: 1573489721:0;react-native run-ios --simulator="iPhone 11 Pro Max"
+: 1573490088:0;git checkout develop
+: 1573490104:0;git checkout -b develop_SIT-660
+: 1573490316:0;git status
+: 1573490324:0;git add app/base/forms/
+: 1573490326:0;git status
+: 1573490335:0;git commit -m "set a default in the date pickers for iOS"
+: 1573490348:0;git push -u origin develop_SIT-660
+: 1573492898:0;code .
+: 1573494427:0;git push
+: 1573494683:0;git log
+: 1573555743:0;code .
+: 1573556208:0;git push
+: 1573558963:0;cd ../
+: 1573558966:0;cd raildiary-web/
+: 1573558969:0;git fetch --all
+: 1573559015:0;git checkout feature/filters_SIT-593
+: 1573559020:0;code .
+: 1573566736:0;git fetch --all
+: 1573567142:0;git branch -a
+: 1573567367:0;git checkout develop
+: 1573567370:0;git pull
+: 1573567377:0;git remote prune origin
+: 1573567973:0;yarn middleware
+: 1573567981:0;cd frontend
+: 1573567986:0;yarn middleware
+: 1573569102:0;docker ps
+: 1573569107:0;docker-compose up -d
+: 1573571126:0;docker-compose exec php-fpm bash
+: 1573654660:0;git reset --soft HEAD~2
+: 1573656332:0;git checkout -b hotfix/filters
+: 1573656343:0;git add frontend/app
+: 1573656346:0;git status
+: 1573656382:0;git commit -m "useClickAnywhere hook for all dropdowns"
+: 1573656398:0;git push -u origin hotfix/filters
+: 1573656623:0;git pull origin master
+: 1573835893:0;git checkout master
+: 1573835905:0;git checkout -b hotfix/pagination-style
+: 1573835910:0;git stash apply
+: 1573836225:0;git merge --abort
+: 1573836280:0;git checkout develop
+: 1573836317:0;git checkout master
+: 1573836319:0;git pull
+: 1573836364:0;git branch -D hotfix/pagination-style
+: 1573836369:0;git checkout -b hotfix/pagination-style
+: 1573836373:0;git stash apply
+: 1573836454:0;git push -u origin hotfix/pagination-style
+: 1573836993:0;git push
+: 1573837884:0;git checkout hotfix/filters
+: 1573837894:0;git pull origin master
+: 1573837900:0;git push
+: 1574255240:0;cd ../
+: 1574255244:0;cd sitediary-app
+: 1574255255:0;git pull origin develop
+: 1574255268:0;git stash
+: 1574255273:0;git pull origin develop
+: 1574255314:0;git commit
+: 1574255834:0;yarn start --reset-cache
+: 1574255843:0;react-native run-android
+: 1574256117:0;git push
+: 1574257972:0;git pull origin master
+: 1574257985:0;yarn middleware
+: 1574334037:0;cd ../
+: 1574334042:0;cd sitediary-app
+: 1574334043:0;code .
+: 1574343363:0;cd frontend
+: 1574343366:0;code .
+: 1574343379:0;cd ../
+: 1574343380:0;code .
+: 1574418597:0;yarn middleware
+: 1574422364:0;git checkout master
+: 1574422623:0;git checkout hotfix/filters
+: 1574422831:0;yarn middleware
+: 1574425245:0;git push
+: 1574431458:0;cd ../
+: 1574431460:0;cd sitediary-app
+: 1574431461:0;code .
+: 1574441064:0;yarn middleware
+: 1574443288:0;git rebase -i
+: 1574443307:0;git rebase -i HEAD^3
+: 1574443330:0;git rebase -i HEAD~3
+: 1574443640:0;git commit --amend -m "rebuild data filter as list filter"
+: 1574443648:0;git rebase --continue
+: 1574443658:0;git log
+: 1574443675:0;git push
+: 1574443682:0;git pull
+: 1574443700:0;git merge --abort
+: 1574443703:0;git log
+: 1574443719:0;git push --force
+: 1574459214:0;code .
+: 1574459284:0;yarn start --reset-cache
+: 1574459299:0;react-native run-android
+: 1574602047:0;ls
+: 1574602055:0;cd Documents/projects/sitediary-app
+: 1574602060:0;cd ../
+: 1574602063:0;cd raildiary-web
+: 1574602065:0;ls
+: 1574676947:0;yarn middleware
+: 1574676954:0;cd frontend
+: 1574676957:0;yarn
+: 1574676963:0;yarn middleware
+: 1574676978:0;ls
+: 1574677151:0;cd ../
+: 1574677162:0;docker ps
+: 1574678916:0;git add git push
+: 1574678923:0;git
+: 1574678932:0;git push
+: 1574692318:0;yarn middleware
+: 1574699363:0;docker-compose exec php-fpm bash
+: 1574700091:0;yarn middleware
+: 1574700864:0;git pull origin master
+: 1574701221:0;git stash apply
+: 1574701412:0;git push
+: 1574701661:0;docker-compose stop
+: 1574701699:0;docker-compose down
+: 1574701709:0;docker ps
+: 1574701717:0;docker-compose up -d
+: 1574701997:0;docker ps
+: 1574702095:0;yarn middleware
+: 1574874223:0;cd ../
+: 1574874227:0;code ./sitediary-app
+: 1574942146:0;git rebase -i HEAD~2
+: 1574942218:0;git log
+: 1574942245:0;git rebase -i HEAD~2
+: 1574942304:0;git push --force
+: 1574947809:0;code ./sitediary-app
+: 1574950303:0;git pull origin master
+: 1574951169:0;git push
+: 1575012652:0;git checkout develop
+: 1575012657:0;git pull
+: 1575012684:0;yarn middleware
+: 1575013082:0;docker-compose exec php-fpm bash
+: 1575465131:0;cd ../
+: 1575465132:0;cd sitediary-app
+: 1575465135:0;code .
+: 1575543381:0;yarn middleware
+: 1575543542:0;git pull
+: 1575543582:0;git checkout -b feature/prepop_failure_notify
+: 1575543625:0;docker-compose exec php-fpm bash
+: 1575543632:0;clean-pimcore
+: 1575543646:0;docker-compose exec php-fpm bash
+: 1575543669:0;docker-compose up -d
+: 1575543919:0;docker-compose exec php-fpm bash
+: 1575543928:0;docker ps
+: 1575543931:0;docker-compose exec php-fpm bash
+: 1575550717:0;git pull origin develop
+: 1575550729:0;docker-compose exec php-fpm bash
+: 1575550868:0;yarn
+: 1575550876:0;rm -rf node_modules
+: 1575550889:0;yarn
+: 1575551687:0;yarn middleware
+: 1575551739:0;npm rebuild node-sass
+: 1575551908:0;yarn middleware
+: 1575628334:0;git checkout master
+: 1575628338:0;git pull
+: 1575628443:0;git checkout -b hotfix/edge_dropdowns
+: 1575628456:0;yarn
+: 1575628463:0;yarn middleware
+: 1575629717:0;git branch -m hotfix/edge-bugs
+: 1575632421:0;docker ps
+: 1575632470:0;yarn middleware
+: 1575632965:0;docker-compose stop && docker-compose start
+: 1575633675:0;docker-compose exec php-fpm bash
+: 1575635569:0;git status
+: 1575635581:0;git push -u origin hotfix/edge-bugs
+: 1575636983:0;git push
+: 1575637144:0;git log
+: 1575637183:0;git checkout master
+: 1575637187:0;git pull
+: 1575637202:0;git checkout -b hotfix/edge_bugs
+: 1575637229:0;git cherry-pick bba1f7f9c373fa40b0ba69981808d8b4cb69850b d294eab31ae22c2502b2c26f9c6114a3bd1ed414
+: 1575637235:0;git log
+: 1575637243:0;git push -u origin hotfix/edge_bugs
+: 1575637313:0;git checkout master
+: 1575637328:0;git checkout -b hotfix/autocomplete
+: 1575637359:0;git cherry-pick 3538df76a00a16aa04028d11e5f704d66190d075 77a79942ef4d785f06a66c1f42d9a6528920b330
+: 1575637361:0;git log
+: 1575637388:0;git branch -m hotfix/autocomplete_clear
+: 1575637459:0;git push -u origin hotfix/autocomplete_clear
+: 1575637586:0;git push
+: 1575637596:0;git push --force
+: 1575646848:0;git checkout feature/prepop_failure_notify
+: 1575649041:0;git checkout develop
+: 1575649046:0;git stash
+: 1575649050:0;git checkout develop
+: 1575649052:0;git pull
+: 1575649121:0;git checkout -b feature/prepop_single_call
+: 1575882227:0;git push -u origin feature/prepop_single_call
+: 1576159837:0;docker-compose exec php-fpm bash
+: 1576491395:0;git fetch --all
+: 1576491452:0;git checkout release/5.11.0
+: 1576491459:0;git pull
+: 1576491474:0;yarn middleware
+: 1576491669:0;docker-compose exec php-fpm bash
+: 1576500073:0;open -a Simulator
+: 1576502586:0;open -a Simulator "iPhone 5"
+: 1576502623:0;xcrun simctl list --json
+: 1576502731:0;xcrun simctl list
+: 1576502976:0;open -a Simulator
+: 1576510072:0;git reset --soft HEAD~2
+: 1576510075:0;git status
+: 1576510124:0;git checkout -b release/5.11.0_filter_modal_fullscreen
+: 1576510170:0;git push -u origin release/5.11.0_filter_modal_fullscreen
+: 1576510537:0;git checkout release/5.11.0
+: 1576510725:0;git pull
+: 1576511017:0;docker-compose exec php-fpm bash
+: 1576511212:0;git push
+: 1576517575:0;git pull
+: 1576517649:0;git push
+: 1576581037:0;git pull
+: 1576587261:0;git reset --soft HEAD~1
+: 1576587278:0;git checkout -b release/5.11.0_style_tweaks
+: 1576587285:0;git add frontend
+: 1576587286:0;git status
+: 1576587308:0;git commit -m "SIT-816 input content overflowing into buttons"
+: 1576587324:0;git push -u origin release/5.11.0_style_tweaks
+: 1576587764:0;git push
+: 1576597104:0;git fetch --all
+: 1576597141:0;git checkout tooling/prettier
+: 1576597145:0;git stash
+: 1576597149:0;git checkout tooling/prettier
+: 1576597153:0;git stash apply
+: 1576597165:0;git stash --abort
+: 1576597170:0;git stash abort
+: 1576597178:0;docker-compose exec php-fpm bash
+: 1576597217:0;yarn middleware
+: 1576597245:0;git remote prune origin
+: 1576597266:0;yarn
+: 1576597328:0;yarn middleware
+: 1576597476:0;cd ../
+: 1576597479:0;ls
+: 1576597481:0;cd army-ants
+: 1576597482:0;code .
+: 1576597588:0;git reset --hard
+: 1576597665:0;code .
+: 1576597710:0;cd frontend
+: 1576597711:0;code .
+: 1576597955:0;cd ../
+: 1576597962:0;code react-ts-boilerplate
+: 1576598876:0;git checkout -b mess
+: 1576603422:0;code testing-course
+: 1576665508:0;git fetch --all
+: 1576676109:0;code sitediary-app
+: 1576686015:0;docker ps
+: 1576686047:0;yarn
+: 1576686060:0;yarn middleware
+: 1576686314:0;docker-compose exec php-fpm bash
+: 1576686511:0;git pull origin develop
+: 1576686628:0;yarn
+: 1576686634:0;docker-compose exec php-fpm bash
+: 1576686647:0;yarn middleware
+: 1576687067:0;docker-compose stop && docker-compose start
+: 1576687548:0;rm -rf node_modules
+: 1576687573:0;yarn
+: 1576687580:0;cd ../
+: 1576687586:0;docker-compose exec php-fpm bash
+: 1576687600:0;docker-compose down
+: 1576688025:0;docker-compose up -d
+: 1576688039:0;docker-compose exec php-fpm bash
+: 1576688068:0;docker ps
+: 1576688076:0;yarn middleware
+: 1576688426:0;docker-compose exec php-fpm bash
+: 1576750671:0;docker ps
+: 1576763281:0;git pull origin develop
+: 1576763368:0;docker-compose exec php-fpm bash
+: 1576763378:0;docker ps
+: 1576763385:0;docker-compose up -d
+: 1576763397:0;docker-compose exec php-fpm bash
+: 1576763438:0;yarn middleware
+: 1576772182:0;git pull origin develop
+: 1576772310:0;cd frontend
+: 1576772312:0;yarn
+: 1576773754:0;cd ../
+: 1576773757:0;git merge --abort
+: 1576774704:0;git checkout develop
+: 1576774928:0;git reset --hard HEAD
+: 1576774947:0;git checkout develop
+: 1576775178:0;git checkout -b feature/prepop_v2
+: 1576775201:0;code .
+: 1576775209:0;rm -rf node_modules
+: 1576775223:0;yarn
+: 1576775469:0;docker ps
+: 1576775479:0;yarn middleware
+: 1576776164:0;docker-compose exec php-fpm bash
+: 1576835465:0;git pull origin develop
+: 1576835603:0;docker-compose exec php-fpm bash
+: 1576835674:0;yarn middleware
+: 1576835697:0;rm -rf node_modules
+: 1576835709:0;yarn
+: 1576835751:0;yarn middleware
+: 1576836540:0;git pull origin develop
+: 1576836783:0;git checkout develop
+: 1576836787:0;git stash
+: 1576836789:0;git checkout develop
+: 1576836794:0;git pull
+: 1576836801:0;rm -rf node_modules
+: 1576836880:0;yarn
+: 1576836954:0;docker-compose exec php-fpm bash
+: 1576836987:0;docker-compose exec php-fpm clean-pimcore
+: 1576837007:0;docker-compose stop && docker-compose start
+: 1576837050:0;yarn middleware
+: 1576839583:0;git pull
+: 1576839592:0;git stash
+: 1576839595:0;git pull
+: 1576839607:0;rm -rf node_modules
+: 1576839616:0;yarn
+: 1576839677:0;yarn middleware
+: 1576839773:0;docker-compose exec php-fpm clean-pimcore
+: 1576839828:0;docker-compose stop && docker-compose start
+: 1576840078:0;docker-compose exec php-fpm clean-pimcore
+: 1576840771:0;git checkout feature/prepop_v2
+: 1576840789:0;git pull origin develop
+: 1576840807:0;rm -rf node_modules
+: 1576840841:0;yarn
+: 1576840919:0;yarn middleware
+: 1577118335:0;print 'howdy'
+: 1577118422:0;for (( i=0; i<100; i++ )) \
+echo '$i'
+: 1577118527:0;for (( i=0; i<5; i++ )) do echo "yes"\
+\
+\
+exit\
+echo $i
+: 1577118554:0;for (( i=0; i<5; i++ )) echo "yes" done
+: 1577118560:0;for (( i=0; i<5; i++ )) echo $i
+: 1577118566:0;for(( i=0; i<5; i++ )) echo $i
+: 1577118573:0;for ((i=0; i<5; i++ )) echo $i
+: 1577118576:0;for ((i=0;i<5; i++ )) echo $i
+: 1577118579:0;for ((i=0;i<5;i++ )) echo $i
+: 1577118581:0;for ((i=0;i<5;i++)) echo $i
+: 1577118585:0;for ((i=0;i<5;i++))echo $i
+: 1577118633:0;for ((i=0;i<100;i++))if ! $i%15; then echo FizzBuzz done\
+
+: 1577124753:0;git push -u origin feature/prepop_v2
+: 1578068175:0;cd ~/
+: 1578068176:0;ls
+: 1578068182:0;cd Documents/projects/
+: 1578068185:0;cd raildiary-web
+: 1578068190:0;code .
+: 1578068217:0;yarn middleware
+: 1578068222:0;cd frontend
+: 1578068231:0;cd ../
+: 1578068236:0;yarn middleware
+: 1578309335:0;cd ../
+: 1578309336:0;ls
+: 1578309352:0;code landmass-js
+: 1578325400:0;git status
+: 1578325445:0;rm .git/index.lock
+: 1578407613:0;code sitediary-app
+: 1578412581:0;yarn middleware
+: 1578506914:0;ls
+: 1578506918:0;code project-ants
+: 1578507105:0;cd project-ants
+: 1578507107:0;npm run demo
+: 1578564686:0;yarn middleware
+: 1578564690:0;docker ps
+: 1578564696:0;docker-compose up -d
+: 1578565340:0;code .
+: 1578566796:0;git log
+: 1578566823:0;git rebase -i HEAD~4
+: 1578566897:0;git log
+: 1578566910:0;git status
+: 1578566915:0;git rebase -i HEAD~4
+: 1578566977:0;cd .git
+: 1578566979:0;ls
+: 1578566984:0;ls -la
+: 1578567003:0;code .
+: 1578567075:0;git config --global core.editor /usr/bin/vim
+: 1578567080:0;git status
+: 1578567086:0;cd ../
+: 1578567088:0;git status
+: 1578567092:0;git rebase -i HEAD~4
+: 1578567157:0;git log
+: 1578567180:0;git checkout develop
+: 1578567184:0;git pull
+: 1578567257:0;rm -rf app/config/pimcore/datasources
+: 1578567259:0;git pull
+: 1578567389:0;docker ps
+: 1578567407:0;docker-compose stop && docker-compose start
+: 1578567571:0;docker-compose exec php-fpm bash
+: 1578570730:0;docker ps
+: 1578581279:0;git log prepop_v2
+: 1578581286:0;git branch
+: 1578581301:0;git log feature/prepop_v2
+: 1578581326:0;git checkout -b feature/prepop_rewrite
+: 1578581333:0;git cherry-pick a892d3a45241196d4b414b22d9ac40d971ef5df2
+: 1578584860:0;yarn middleware
+: 1578586954:0;cd ../
+: 1578586957:0;code sitediary-app
+: 1578923148:0;git push -u origin feature/prepop_rewrite
+: 1578923157:0;git pull origin develop
+: 1578923177:0;git push
+: 1578924146:0;yarn middleware
+: 1578924184:0;git push
+: 1578933092:0;git pusgh
+: 1578933095:0;git push
+: 1579004432:0;git pull
+: 1579015875:0;git checkout develop
+: 1579015879:0;git pull
+: 1579016108:0;code project-ants
+: 1579018391:0;cd project-ants
+: 1579018409:0;gulp
+: 1579018442:0;http-server
+: 1579025479:0;npm run predeploy
+: 1579025497:0;git add .
+: 1579025531:0;git commit -m "standardise controls and re-arrange interface for demo"
+: 1579025536:0;git push
+: 1579083208:0;git checkout feature/prepop_rewrite
+: 1579083236:0;git push
+: 1579083243:0;git pull
+: 1579083263:0;git push
+: 1579083279:0;git checkout develop
+: 1579083281:0;git pull
+: 1579087690:0;git checkout -b feature/a11y_ui_tweaks
+: 1579094368:0;git log feature/prepop_prepop_rewrite
+: 1579094383:0;git log feature/prepop_rewrite
+: 1579182213:0;yarn middleware
+: 1579188398:0;code ../sitediary-app
+: 1579191620:0;git pull origin develop
+: 1579191658:0;docker-compose down
+: 1579191712:0;docker ps
+: 1579191743:0;docker images -a
+: 1579191759:0;docker images purge
+: 1579191765:0;docker images -a
+: 1579191778:0;docker rmi $(docker images -a -q)
+: 1579191802:0;docker rm $(docker ps -a -f status=exited -q)
+: 1579191815:0;docker rmi $(docker images -a -q)
+: 1579191824:0;docker images -a
+: 1579191848:0;rm -rf ./vendor
+: 1579191861:0;rm -rf ./web
+: 1579191872:0;mv var ./api/var
+: 1579191879:0;cd ./api
+: 1579191886:0;rm -rf ./cache
+: 1579191892:0;docker-compose up -d
+: 1579192417:0;docker-compose exec php-fpm bash
+: 1579194976:0;cd ../
+: 1579194976:0;ls
+: 1579194981:0;cd frontend
+: 1579194984:0;yarn middleware
+: 1579195365:0;docker-compose down
+: 1579195389:0;docker-compose up -d
+: 1579196187:0;cd ../
+: 1579196189:0;docker-compose exec php-fpm bash
+: 1579196203:0;cd api
+: 1579196204:0;docker ps
+: 1579196208:0;docker-compose exec php-fpm bash
+: 1579197718:0;code .
+: 1579254414:0;git fetch --all
+: 1579254436:0;git checkout feature/prepop_rewrite
+: 1579254674:0;git checkout develop
+: 1579254678:0;git pull
+: 1579254687:0;cd ../
+: 1579255875:0;git cherckout -b feature/prepop_rewrite_2
+: 1579255880:0;git checkout -b feature/prepop_rewrite_2
+: 1579257816:0;yarn middleware
+: 1579258254:0;cd frontend
+: 1579258256:0;webpack --json > stats.json
+: 1579259154:0;git push -u origin feature/prepop_rewrite_2
+: 1579265804:0;git checkout feature/a11y_ui_tweaks
+: 1579265808:0;git pull origin develop
+: 1579272916:0;git checkout develop
+: 1579273419:0;git checkout -b hotfix/is-numeric
+: 1579273664:0;git push -u origin hotfix/is-numeric
+: 1579274124:0;git checkout feature/a11y_ui_tweaks
+: 1579275247:0;git pull origin develop
+: 1579276619:0;code ../sitediary-app
+: 1579281194:0;code .
+: 1579794180:0;git checkout develop
+: 1579794407:0;git checkout feature/a11y_ui_tweaks
+: 1579794411:0;git stash apply
+: 1579794472:0;code ../
+: 1579794716:0;yarn middleware
+: 1579860894:0;docker ps
+: 1579860904:0;cd ~/
+: 1579860905:0;ls
+: 1579860911:0;cd D
+: 1579860916:0;cd Documents/projects/
+: 1579860920:0;cd raildiary-web
+: 1579860929:0;cd frontend
+: 1579860932:0;yarn middleware
+: 1579860937:0;cd api
+: 1579860944:0;docker-compose up -d
+: 1579867083:0;git push -u origin feature/a11y_ui_tweaks
+: 1580140830:0;docker-compose exec php-fpm bash
+: 1580143140:0;code .
+: 1580149584:0;git pull origin develop
+: 1580210047:0;code node_modules/bootstrap/scss/reboot.scss
+: 1580210059:0;open node_modules/bootstrap/scss/
+: 1580211104:0;git pull origin develop
+: 1580211227:0;git push
+: 1580224440:0;code ../../project-ants
+: 1580294109:0;cd ../
+: 1580295583:0;yarn middleware
+: 1580296724:0;cd ../
+: 1580296726:0;ls
+: 1580296728:0;cd api
+: 1580296729:0;docker ps
+: 1580296735:0;docker-compose up -d
+: 1580298507:0;cd ../
+: 1580298509:0;git status
+: 1580298513:0;git push
+: 1580308739:0;git clone git@bitbucket.org:raildiary/raildiary-cms.git
+: 1580308757:0;code .
+: 1580308773:0;cd raildiary-cms
+: 1580308775:0;code .
+: 1580308937:0;docker-compose up -d
+: 1580308946:0;cd frontend
+: 1580308947:0;yarn
+: 1580309017:0;docker-compose stop
+: 1580309197:0;cd app
+: 1580309199:0;ls
+: 1580309202:0;cd api
+: 1580309205:0;docker-compose stop
+: 1580309230:0;yarn
+: 1580309639:0;docker-compose exec php-fpm bash
+: 1580312428:0;docker ps
+: 1580312445:0;yarn middleware
+: 1580312538:0;docker-compose stop && docker-compose start
+: 1580312649:0;docker-compose exec php-fpm bash
+: 1580312659:0;docker-compose down
+: 1580312682:0;docker-compose up -d
+: 1580312788:0;docker-compose exec php-fpm bash
+: 1580313264:0;docker-compose down && docker-compose up -d
+: 1580313315:0;docker-compose exec php-fpm bash
+: 1580377221:0;docker-compose stop
+: 1580377251:0;docker-compose start
+: 1580379245:0;docker ps
+: 1580379249:0;docker-compose up -d
+: 1580379256:0;yarn middleware
+: 1580379310:0;cd ../
+: 1580379314:0;code .
+: 1580393172:0;git pull origin develop
+: 1580393190:0;git push
+: 1580397085:0;cd ../
+: 1580397089:0;cd project-ants
+: 1580397090:0;code .
+: 1580397679:0;npm run predeploy
+: 1580397737:0;git push
+: 1580403518:0;docker-compose down
+: 1580403532:0;docker-compose up d
+: 1580403536:0;docker-compose up -d
+: 1580403552:0;docker-compose stop
+: 1580403687:0;docker-compose start
+: 1580403701:0;cd frontend
+: 1580403703:0;yarn middleware
+: 1580403707:0;cd ../
+: 1580405252:0;docker-compose stop
+: 1580405273:0;cd ../
+: 1580405277:0;cd raildiary-cms
+: 1580405287:0;cd app
+: 1580405297:0;docker-compose start
+: 1580468202:0;docker ps
+: 1580468214:0;ls
+: 1580468219:0;cd ../
+: 1580468219:0;ls
+: 1580468223:0;cd frontend
+: 1580468227:0;yarn middleware
+: 1580724876:0;cd ~/Documents/projects/raildiary-web
+: 1580724880:0;docker ps
+: 1580724893:0;git checkout develop
+: 1580724897:0;git pull
+: 1580725424:0;cd api
+: 1580725431:0;docker-compose up -d
+: 1580725435:0;cd frontend
+: 1580726145:0;docker-compose exec php-fpm bash
+: 1580726152:0;yarn middleware
+: 1580727112:0;cd ../
+: 1580727131:0;git checkout -b feature/prepop_cpc_fields
+: 1580753339:0;git push -u origin feature/prepop_cpc_fields
+: 1580813763:0;git push
+: 1580815232:0;cd ../
+: 1580815236:0;cd raildiary-cms
+: 1580815249:0;ls
+: 1580815264:0;cd ../
+: 1580815273:0;cd raildiary-web
+: 1580815282:0;cd api/
+: 1580815287:0;docker-compose stop
+: 1580815312:0;docker ps
+: 1580815316:0;docker-compose up -d
+: 1580815395:0;cd frontend
+: 1580815398:0;yarn middleware
+: 1580816180:0;cd ../
+: 1580816185:0;cd raildiary-web
+: 1580816194:0;git checkout feature/a11y_ui_tweaks
+: 1580816274:0;git push
+: 1580816285:0;git pull
+: 1580816308:0;git pysg
+: 1580816313:0;git push
+: 1580816406:0;code .
+: 1580816640:0;code ../../raildiary-web/frontend
+: 1580816816:0;yarn
+: 1580817428:0;code ../../raildiary-web/
+: 1580817556:0;code .
+: 1580817569:0;yarn middleware
+: 1580818307:0;yarn
+: 1580818318:0;yarn middleware
+: 1580822785:0;yarn
+: 1580822799:0;yarn middleware
+: 1580824713:0;yarn
+: 1580824763:0;git checkout -b feature/pricing_roi
+: 1580824774:0;git stash
+: 1580824784:0;git push -u origin feature/pricing_roi
+: 1580824838:0;git checkout -b feature/pricing_roi--setup
+: 1580824841:0;git stash apply
+: 1580824865:0;git log
+: 1580824926:0;git reset HEAD^
+: 1580826412:0;yarn middleware
+: 1580826710:0;cd frontend
+: 1580826713:0;cd ../
+: 1580826715:0;git stash
+: 1580826726:0;git checkout feature/pricing_roi
+: 1580826748:0;git stash apply
+: 1580827389:0;code .
+: 1580827641:0;git update-index --assume-unchanged web/static/bundles/styles.js
+: 1580827678:0;git update-index --assume-unchanged var/config/predefined-properties.php
+: 1580827691:0;git update-index --assume-unchanged var/config/staticroutes.php
+: 1580827705:0;git update-index --assume-unchanged var/config/web2print.php
+: 1580827717:0;git update-index --assume-unchanged var/config/website-settings.php
+: 1580827731:0;git update-index --assume-unchanged bin/symfony_requirements
+: 1580827801:0;git push -u origin feature/pricing_roi--setup
+: 1580827818:0;git checkout feature/pricing_roi
+: 1580827821:0;git log
+: 1580827827:0;git reset HEAD^
+: 1580827829:0;git log
+: 1580827854:0;git push --force
+: 1580827862:0;git pull origin develop
+: 1580827882:0;git checkout feature/pricing_roi--setup
+: 1580827894:0;git pull origin feature/pricing_roi
+: 1580831173:0;cd ../
+: 1580831180:0;docker-compose stop
+: 1580831196:0;cd ../
+: 1580831197:0;cd app
+: 1580831201:0;cd ../
+: 1580831204:0;docker-compose stop
+: 1580831632:0;docker-compose start
+: 1580831638:0;cd ../frontend
+: 1580831639:0;yarn middleware
+: 1580831650:0;cd ../
+: 1580831652:0;git checkout develop
+: 1580831656:0;git pull
+: 1580831695:0;yarn middleware
+: 1580832475:0;git reset HEAD^
+: 1580832521:0;git checkout feature/a11y_ui_tweaks
+: 1580832526:0;git pull origin develop
+: 1580901000:0;git push
+: 1580902079:0;docker-compose stop
+: 1580902098:0;cd frontend
+: 1580902103:0;cd ../app
+: 1580902107:0;docker-compose start
+: 1580902180:0;code .
+: 1580902186:0;yarn middleware
+: 1580902528:0;git log
+: 1580902532:0;git push
+: 1580906748:0;code .
+: 1580906757:0;code ../
+: 1580907067:0;git push
+: 1580914664:0;git reset HEAD^
+: 1580914733:0;git stash
+: 1580914741:0;git checkout feature/pricing_roi
+: 1580914759:0;git checkout -b feature/pricing_roi--header_layout
+: 1580914770:0;git stash apply
+: 1580914816:0;git push -u origin feature/pricing_roi--header_layout
+: 1580914870:0;git pull origin feature/pricing_roi
+: 1580914884:0;git push
+: 1580914959:0;git checkout feature/pricing_roi
+: 1580914964:0;git pull
+: 1580914974:0;git push
+: 1580914988:0;git checkout feature/pricing_roi--header_layout
+: 1580914993:0;git pull origin feature/pricing_roi
+: 1580915002:0;git push
+: 1581069917:0;cd ~/Documents/projects/raildiary-web
+: 1581069919:0;code .
+: 1581069923:0;cd ../
+: 1581069928:0;cd raildiary-cms
+: 1581070136:0;cd ../
+: 1581070143:0;cd raildiary-web
+: 1581070148:0;git checkout develop
+: 1581070151:0;git pull
+: 1581070213:0;git fetch --all
+: 1581070220:0;git remote prune origin
+: 1581070243:0;git checkout release/6.1.3
+: 1581070263:0;git fetch --all
+: 1581070282:0;git checkout release/6.1.3
+: 1581070427:0;git branch -a
+: 1581070551:0;git branch -r
+: 1581070614:0;git fetch -p
+: 1581070621:0;git branch -r
+: 1581071718:0;git branch -a
+: 1581071735:0;git remote prune origin
+: 1581071744:0;git branch -a
+: 1581071788:0;git branch --merged
+: 1581071849:0;git branch --merged master
+: 1581071864:0;git branch --merged master | grep -v '^[ *]*master$'
+: 1581071872:0;git branch --merged develop | grep -v '^[ *]*master$'
+: 1581071878:0;git branch --merged develop | grep -v '^[ *]*develop$'
+: 1581071892:0;git branch --merged develop | grep -v '^[ *]*develop|master$'
+: 1581071903:0;git branch --merged develop | grep -v '^[ *]*[develop|master]$'
+: 1581072062:0;git branch -vv | grep ': gone]' | awk '{print $1}'
+: 1581072081:0;git branch -vv
+: 1581072129:0;git branch -vv | grep ': gone]' | awk '{print $1}' | xargs git branch -d
+: 1581072134:0;git branch -a
+: 1581072145:0;git branch -r
+: 1581072251:0;git branch -a
+: 1581072262:0;git remote prune origin
+: 1581072276:0;git branch -vv
+: 1581072303:0;git branch -vv | grep ': gone]' | awk '{print $1}'
+: 1581072316:0;git branch -vv | grep ': gone]' | awk '{print $1}' | xargs git branch -d
+: 1581072483:0;cd ~/
+: 1581072484:0;ls
+: 1581072488:0;cd ./
+: 1581072490:0;ls
+: 1581072492:0;cd .
+: 1581072494:0;ls
+: 1581072502:0;cd ../
+: 1581072502:0;ls
+: 1581072504:0;cd ../
+: 1581072506:0;ls
+: 1581072515:0;find .zsh
+: 1581072704:0;code ~/.zsh_history

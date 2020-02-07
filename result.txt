@@ -1,0 +1,658 @@
+116 | cd ../
+114 | git push
+111 | code .
+91 | git pull
+91 | yarn middleware
+80 | yarn
+78 | git add .
+67 | yarn start --reset-cache
+66 | docker-compose exec php-fpm bash
+63 | git checkout develop
+59 | git status
+56 | react-native run-android
+54 | docker ps
+41 | docker-compose up -d
+34 | ls
+33 | git pull origin develop
+32 | cd frontend
+31 | rm -rf node_modules
+25 | react-native log-android
+23 | git log
+22 | git stash
+20 | react-native run-ios
+19 | yarn start
+18 | git fetch --all
+18 | 
+16 | docker-compose stop && docker-compose start
+15 | docker-compose down
+14 | docker-compose stop
+14 | git stash apply
+13 | ls -la
+10 | cd raildiary-web/
+10 | git checkout master
+10 | pod install
+10 | git commit
+9 | cd sitediary-app
+9 | yarn clean
+9 | npm start
+9 | react-native run-ios --simulator="iPhone 11 Pro Max"
+8 | cd project-ants
+8 | gulp build
+8 | npm test
+8 | npm run test
+7 | cd raildiary-web
+7 | cd army-ants
+7 | gulp
+7 | yarn predeploy
+6 | cd ~/Documents/projects/raildiary-web
+6 | docker-compose start
+6 | cd ios
+6 | cd testing-course
+6 | cd jotto
+6 | git branch -a
+5 | cd ~/
+5 | npm rebuild node-sass
+5 | cd ../../
+5 | yarn test
+5 | npm run eject
+5 | cd landmass-js
+5 | /Users/ryandunn/Documents/projects/sitediary-app/node_modules/react-native/scripts/launchPackager.command ; exit;
+5 | yarn deploy
+5 | git init
+5 | git remote prune origin
+5 | git pull origin master
+5 | cd api
+5 | git checkout feature/a11y_ui_tweaks
+4 | nano ~/.zshrc
+4 | docker-compose exec php-fpm bash make install
+4 | nvm --version
+4 | docker stop $(docker ps -a -q)
+4 | docker rm $(docker ps -a -q)
+4 | git checkout feature/shiftPrePopulate_sit-428
+4 | npm run start
+4 | yarn demo
+4 | cd language-learner
+4 | git push -u origin master
+4 | git commit -m "cleanup"
+4 | git branch -r
+4 | git push --force
+4 | cd raildiary-cms
+4 | git reset HEAD^
+4 | git checkout feature/pricing_roi
+3 | node --version
+3 | source ~/.zshrc
+3 | cd ..
+3 | code ../
+3 | yarn upgrade
+3 | react-native start
+3 | cd apollo-tutorial
+3 | cd start
+3 | cd server
+3 | npm install
+3 | git checkout develop_SIT-577
+3 | cd udemy-react-testing-projects
+3 | cd counter
+3 | git merge --abort
+3 | code sitediary-app
+3 | docker-compose exec php-fpm clean-pimcore
+3 | git rebase -i HEAD~4
+3 | docker images -a
+3 | cd app
+3 | git pull origin feature/pricing_roi
+2 | nano .zshrc
+2 | git checkout -- .
+2 | git reset --hard
+2 | nvm
+2 | nvm -v
+2 | docker ps -a
+2 | rm -rf raildiary-web
+2 | git clone git@bitbucket.org:raildiary/raildiary-web.git
+2 | docker-compose build
+2 | git checkout feature/shiftPrePopulate-pc5_sit-428
+2 | jest --version
+2 | git checkout release/5.1.0-datasources
+2 | cd arm
+2 | git checkout feature/shiftPrePopulate-pc5_sit-429
+2 | git checkout feature/shiftPrePopulate-pc5_SIT-429
+2 | npm update
+2 | npm i
+2 | git commit -m "start input"
+2 | export PKG_CONFIG_PATH="/usr/local/opt/libffi/lib/pkgconfig"
+2 | cd android/app
+2 | keytool -list -v -keystore ~/.android/debug.keystore -alias androiddebugkey -storepass android -keypass android
+2 | yarn add -D gulp@3.9.1
+2 | http-server
+2 | ps aux | grep node
+2 | cd Documents/projects/sitediary-app
+2 | yarn add -D gh-pages
+2 | git commit -m "github pages"
+2 | git commit -m "github pages index"
+2 | git commit -m "new build for gh pages"
+2 | git commit -m "index on gh pages"
+2 | cd create-react-app
+2 | git commit -m "initial commit"
+2 | sudo gem install cocoapods
+2 | git add app
+2 | git checkout feature/formcomponents
+2 | yarn add react-native-picker-select
+2 | cd ./
+2 | cd .git
+2 | git add . 
+2 | git checkout feature/SIT-539
+2 | cd react-ts-boilerplate
+2 | xcrun simctl list
+2 | brew upgrade yarn
+2 | git commit -m "abstractfield list"
+2 | git rebase --continue
+2 | git commit -m "reset pagination"
+2 | clean-pimcore
+2 | git checkout develop_SIT-569
+2 | react-native run-android\
+2 | git commit -m "abstractfield multiimage"
+2 | git reset --soft HEAD~1
+2 | git checkout
+2 | yarn cleanios
+2 | git add app/views
+2 | git checkout feature/filters_SIT-594_frontend
+2 | create-react-app jotto
+2 | git reset --soft HEAD~2
+2 | git checkout -b hotfix/pagination-style
+2 | git checkout hotfix/filters
+2 | code ./sitediary-app
+2 | git rebase -i HEAD~2
+2 | git checkout release/5.11.0
+2 | open -a Simulator
+2 | git checkout tooling/prettier
+2 | cd Documents/projects/
+2 | code project-ants
+2 | npm run predeploy
+2 | git checkout feature/prepop_rewrite
+2 | code ../sitediary-app
+2 | docker rmi $(docker images -a -q)
+2 | git checkout release/6.1.3
+2 | git branch -vv | grep ': gone]' | awk '{print $1}'
+2 | git branch -vv
+2 | git branch -vv | grep ': gone]' | awk '{print $1}' | xargs git branch -d
+1 | ls -l
+1 | git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+1 | git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+1 | cd Documents/projects
+1 | nano ~/.bash_profile
+1 | git reset HEAD
+1 | rm dockerclean .sh
+1 | rm dockerclean.sh
+1 | rm composer.phar
+1 | docker-compose rm && docker-compose build --no-cache && docker-compose up -d --force-recreate
+1 | composer -v
+1 | brew install nvm
+1 | nvm install 11.16.0
+1 | nvm install 11.15.0
+1 | nvm ls
+1 | node --versiomn
+1 | docker-compose exec php-fpm bash echo "howdy"
+1 | docker image prune
+1 | docker list images
+1 | docker images liost
+1 | docker images list
+1 | git config core.eol lf
+1 | git config core.autocrlf input
+1 | git config core.ignorecase false
+1 | git config --list
+1 | git checkout -b feature/shiftPrePopulate-pc5_SIT-427
+1 | git push -u origin feature/shiftPrePopulate-pc5_SIT-427
+1 | npm i -g jest
+1 | code ~/Desktop/testcsv.csv
+1 | git commit -m "SIT-427 - preview for shift uploads"
+1 | git checkout -b release/5.1.0-datasources_SIT-453
+1 | git commit -m "SIT-453 - allow empty fields in project specific data sources when there is a client fallback"
+1 | git push -u origin release/5.1.0-datasources_SIT-453
+1 | git checkout feature/shiftPrePopulate-pc5_sit-427
+1 | git commit -m "core overhaul"
+1 | git merge tempmess
+1 | git commit -m "renamed files and redid all imports"
+1 | git pul
+1 | git pull origin feature/shiftPrePopulat-pc5_SIT-429
+1 | git checkout feature/shiftPrePopulate
+1 | git checkout feature/shiftPrePopulate-pc5
+1 | git branch -D feature/shiftPrePopulate-pc5_SIT-429
+1 | git fetch -all
+1 | git commit -m "player input"
+1 | npm audit fix
+1 | git commit -m "fix compile errors"
+1 | cd ../project-ants
+1 | git commit -m "add basic front end"
+1 | git clone git@github.com:ryanantonydunn/landmass-js.git
+1 | rm -rf package-lock.json
+1 | git commit -m "remove package lock"
+1 | webpack-dev-server --display-error-details
+1 | webpack
+1 | npm i -g webpack webpack-cli
+1 | npm i -g typescript
+1 | tsc
+1 | yarn add -D typescript ts-loader
+1 | yarn add -D @babel/preset-typescript @babel/plugin-proposal-class-properties @babel/plugin-proposal-object-rest-spread
+1 | git commit -m "set up typescript babel"
+1 | yarn starty
+1 | yarn add -D raw-loader
+1 | yarn add -D svg-inline-loader
+1 | git commit -m "main drawing loop"
+1 | git commit -m "start movement"
+1 | cd sitediary-app\\
+1 | git commit -m "movement and land collisions"
+1 | git star
+1 | git push origin --delete mess
+1 | git branch -D mess
+1 | Before installexport PKG_CONFIG_PATH="/usr/local/opt/libffi/lib/pkgconfig"
+1 | react-native --version
+1 | react-native -version
+1 | brew install pkg-config cairo pango libpng jpeg giflib librsvg
+1 | yarn add -D gulp
+1 | yarn add -D gulp-cli
+1 | rm -f package-lock.json
+1 | npm i -g gulp-cli
+1 | yarn rm -D gulp
+1 | yarn remove -D gulp
+1 | yarn remove gulp
+1 | keytool -genkey -v -keystore debug.keystore -storepass android -alias androiddebugkey -keypass android -keyalg RSA -keysize 2048 -validity 10000
+1 | npm i -g gulp@3.9.1
+1 | yarn server:dev
+1 | npm i -g http-server
+1 | npm start --reset-cac he
+1 | npm start --reset-cache
+1 | git commit -m "cobble together a demo"
+1 | cd get-to-ten
+1 | git commit -m "remove"
+1 | git commit -m "add link to readme"
+1 | git commit -m "make touch controls for demo and edit settings page"
+1 | gulp build --production
+1 | git commit -m "add homepage to package"
+1 | git commit -m "adjust input, add fullscreen"
+1 | git commit -m "adjust interface"
+1 | mkdir language-learner
+1 | cd ...
+1 | cd projects/
+1 | yarn add react
+1 | yarn add styled-components
+1 | yarn add react-dom
+1 | yarn update
+1 | yarn add -D html-webpack-plugin
+1 | create-react-app create-react-app
+1 | npx create-react-app create-react-app
+1 | eject
+1 | yarn add -D @types/react @types/react-dom
+1 | rm -rf create-react-app
+1 | npx create-react-app create-react-app --typescript
+1 | yarn eject
+1 | yarn add @babel/preset-react
+1 | cd typescript-boilerplate
+1 | git commit -m "create repo"
+1 | git remote add origin git@github.com:ryanantonydunn/react-ts-boilerplate.git
+1 | cd landma
+1 | cd landmad
+1 | s
+1 | yarn add -D @types/styled-components
+1 | git commit -m "add styled components"
+1 | git clone git@github.com:ryanantonydunn/react-ts-boilerplate.git language-learner
+1 | git remote add origin git@github.com:ryanantonydunn/language-phrases.git
+1 | git remote set-url origin git@github.com:ryanantonydunn/language-phrases.git
+1 | git commit -m "fix readme"
+1 | git commit -m "package changes"
+1 | rm -rf language-learner
+1 | adb devices
+1 | brew install yarn
+1 | brew install watchman
+1 | brew tap AdoptOpenJDK/openjdk
+1 | brew cask install adoptopenjdk8
+1 | oids
+1 | pods
+1 | pods install
+1 | pod setup
+1 | react-native log-ios
+1 | git checkout -b feature/iosanimations
+1 | git commit -m "fix animations on ios"
+1 | git push -u origin feature/iosanimations
+1 | rm -rf android/.gradle && rm -rf android/app/build
+1 | git add docs
+1 | git add package.lock
+1 | git add package.json
+1 | git add yarn.lock
+1 | git commit -m "fix datetime for ios and add separate date and time components"
+1 | yarn add react-native-modal-datetime-picker
+1 | cdd .
+1 | git commit -m "temporary\
+1 | git commit -m "temporary"\
+1 | git checkout dvelop
+1 | git checkout -b feature/input
+1 | git commit -m "input and select components"
+1 | git push -u origin feature/input
+1 | git commit -m "editorconfig file"
+1 | git commit -m "date and time pickers"
+1 | git commit -m "date-fns version"
+1 | rm .COMMIT_EDITMSG.swp
+1 | rm yarn.lock
+1 | rm -rf var/cache
+1 | git checkout -b hotfix/SIT-535
+1 | git commit -m "date time combination in prepop"
+1 | git push -u origin hotfix/SIT-535
+1 | git checkout -b feature/SIT-539
+1 | git commit -m "make prepop lists expandable"
+1 | git push -u origin hotfix/SIT-539
+1 | git push -u origin feature/SIT-539
+1 | yarn lint
+1 | import { Platform, Dimensions } from 'react-native';\
+1 | height } = Dimensions.get('window');\
+1 | Android = Platform.OS === 'android';\
+1 | IOS = Platform.OS === 'ios';\
+1 | IPhoneX = (\
+1 | latform.isPad && !Platform.isTVOS\
+1 |  === 812 || width === 812)\
+1 | ght === 896 || width === 896)\
+1 | INT = isIOS\
+1 | ocalhost:1337'\
+1 | 0.0.2.2:1337'\;\
+1 | DPOINT = __DEV__\
+1 | INT\
+1 | app.raildiary.com'\;\
+1 | Tablet = width >= 576; // 576 taken 
+1 | yarn add -D @babel/preset-env
+1 | cd ../raildiary-web
+1 | cd../
+1 | git checkout -b hotfix/SIT-554
+1 | git commit -m "datetime pickers on ios bug"
+1 | git push -u origin hotfix/SIT-553
+1 | git push -u origin hotfix/SIT-554
+1 | brew upgrade ayrn
+1 | yarn add react-native-dropdown-autocomplete
+1 | git checkout -b feature/autocomplete
+1 | git commit -m "temp"]
+1 | git commit -m "temp"
+1 | git commit -m "feature/abstractfield-number"
+1 | git checkout -b feature/abstractfield-number
+1 | git commit -m "number field"
+1 | git push -u origin feature/abstractfield-number
+1 | git checkout -b feature/abstractfield-datetime
+1 | git add /
+1 | git commit -m "abstractfield datetime and nrw"
+1 | git push -u origin feature/abstractfield-datetime
+1 | git checkout -b feature/abstractfield-select
+1 | git commit -m "abstractfield select temp"
+1 | git push -u origin feature/abstractfield-select
+1 | git commit -m "select with disabled datasources"
+1 | git checkout feature/abstractfield-datetime
+1 | git commit -m "remove classname and fix error"
+1 | git checkout -b feature/abstractfield-tab
+1 | git commit -m "abstractfield tab"
+1 | git push -u origin feature/abstractfield-tab
+1 | git checkout -b feature/abstractfield-list
+1 | cd fro
+1 | docker-compose start -d
+1 | git push -u origin feature/abstractfield-list
+1 | git commit -m "count field"
+1 | git checkout -b feature/abstractfield-allocation
+1 | git commit -m "allocation"
+1 | git checkout feature/abstractfield-list
+1 | git checkout feature/abstractfield-allocation
+1 | git rebase develop
+1 | git rebase --abort
+1 | git checkout -b feature/abstractfield-alocation
+1 | git cherry-pick e5a4a99778d4aaf24880ab173a3552f7f514185b
+1 | git commit -m "allocation visuals"
+1 | git push -u origin feature/abstractfield-alocation
+1 | git checkout -b feature/abstractfield-time
+1 | git clone https://github.com/apollographql/fullstack-tutorial/
+1 | mv fullstack-tutorial apollo-tutorial
+1 | ls start
+1 | docker-compose down]
+1 | cd ../sitediary-app
+1 | git commit -m "dual date time pickers"
+1 | git push -u origin feature/abstractfield-time
+1 | rea
+1 | npm install apollo-datasource-rest --save
+1 | \
+1 | git checkout -b feature/abstractfield-multiimage
+1 | git push -u origin feature/abstractfield-multiimage
+1 | git commit -m "add intermediate state to handle updates to the fields"
+1 | xcrun simctl list devices
+1 | cd pods
+1 | cd Pods
+1 | git checkout -b develop_SIT-568
+1 | git commit -m "profile picture component"
+1 | git push -u origin develop_SIT-568
+1 | npm i -g typescript@3.7.0
+1 | git checkout -b develop_SIT-577
+1 | git commit -m "back buttons back alright"
+1 | git push -u origin develop_SIT-577
+1 | git checkout -b develop_SIT-567
+1 | git push -u origin develop_SIT-567
+1 | yarn  clean
+1 | git checkout -b layout_experiment
+1 | git commit -m "layout"
+1 | git checkout -b develop_SIT-578
+1 | git push -u origin develop_SIT-578
+1 | git checkout -b develop_SIT-582
+1 | git push -u origin develop_SIT-582
+1 | cd ser
+1 | npx apollo service:push --endpoint=http://localhost:4000
+1 | npx apollo service:check --endpoint=http://localhost:4000
+1 | cd client
+1 | ..
+1 | git remote add origin git@github.com:ryanantonydunn/apollo-test.git
+1 | git remote set-url origin git@github.com:ryanantonydunn/apollo-test.git
+1 | cd ../.
+1 | cd projects
+1 | git checkout develop_SIT-582
+1 | git commit -m "small"
+1 | npx create-react-app testing-course
+1 | git checkout -b develop_SIT-616
+1 | git commit -m "sort records by last edited"
+1 | git push -u origin develop_SIT-616
+1 | git  checkout -b develop_SIT-615
+1 | git  commit -m "make list titles not appear if there isn't a label"
+1 | git push -u origin develop_SIT-615
+1 | git  checkout -b develop_SIT-613
+1 | git checkout -b develop_SIT-606
+1 | git commit -m "test commit"
+1 | npm i ajv
+1 | npm i --save-dev jest enzyme
+1 | npm i --save-dev jest-enzyme enzyme-adapter-react-16
+1 | git clone git@github.com:flyrightsister/udemy-react-testing-projects.git
+1 | cd click-counter
+1 | npm install --save-dev babel-plugin-react-remove-properties
+1 | rm -rf .git
+1 | git iniut
+1 | git push -u origin develop_SIT-606
+1 | git checkout -b develop_SIT-611
+1 | git push -u origin develop_SIT-611
+1 | git checkout developo
+1 | git checkout -b develop_SIT-608
+1 | git push -u origin develop_SIT-608
+1 | git merge develop_SIT-606
+1 | git merge develop_SIT-608
+1 | git merge develop_SIT-611
+1 | git merge develop_SIT-615
+1 | git merge develop_SIT-616
+1 | git help
+1 | ps
+1 | git remote add origin git@github.com:ryanantonydunn/testing-course.git
+1 | mkdir jotto
+1 | rm jotto
+1 | rm -rf jotto
+1 | npx create-react-app jotto
+1 | npm i --save-dev jest-enzyme enzyme-adapter-react-16 jest enzyme
+1 | git commit -m "add jotto component"
+1 | npm run testy
+1 | git commit -m 'congrats component'
+1 | npm i -s prop-types
+1 | npm i --save-dev check-prop-types
+1 | git commit -m 'proptypes and defaultprops
+1 | git commit -m 'proptypes and defaultprops'
+1 | git stash]
+1 | git merge develop_SIT-577
+1 | yarn clean-android
+1 | yarn clean-modules
+1 | git commit -m "start guessed words component"
+1 | cd jo
+1 | git commit -m "guessed words component"
+1 | git commit -m "compare letters"
+1 | git checkout -b develop_SIT-566
+1 | yarn add react-native-datepicker
+1 | git push -u origin develop_SIT-566
+1 | git cherry-pick 030af1daf64f29b3ed3e511f24f976c11d837e53
+1 | npm i --save redux react-redux
+1 | git commit -m "start redux"
+1 | git checkout -b "screenwidth fix"
+1 | git checkout -b screenwidth
+1 | git push -u origin screenwidth
+1 | git checkout -b develop_SIT-639
+1 | git push -u origin develop_SIT-639
+1 | git checkout -b develop_SIT-640
+1 | git push -u origin develop_SIT-640
+1 | git checkout -b develop_SIT-522
+1 | git push -u origin develop_SIT-522
+1 | yarn clear
+1 | npm view react
+1 | yarn lint --fix
+1 | git checkout -b develop_SIT-655
+1 | git push -u origin develop_SIT-655
+1 | git checkout -b develop_SIT-654
+1 | git push -u origin develop_SIT-654
+1 | git checkout -b develop_SIT-612
+1 | git push -u origin develop_SIT-612
+1 | git commit -m "add first redux actions"
+1 | git commit -m "add basic reducer testing""
+1 | git commit -m "add basic reducer testing"
+1 | git commit -m "create input component"
+1 | git commit -m "not successful state on input component"
+1 | git commit -m "first part of success input component state"
+1 | git add app/base/collapse.js
+1 | git commit -m "clean up event listeners in the collapse component"
+1 | git checkout -b develop_SIT-660
+1 | git add app/base/forms/
+1 | git commit -m "set a default in the date pickers for iOS"
+1 | git push -u origin develop_SIT-660
+1 | git checkout feature/filters_SIT-593
+1 | git checkout -b hotfix/filters
+1 | git add frontend/app
+1 | git commit -m "useClickAnywhere hook for all dropdowns"
+1 | git push -u origin hotfix/filters
+1 | git branch -D hotfix/pagination-style
+1 | git push -u origin hotfix/pagination-style
+1 | git rebase -i
+1 | git rebase -i HEAD^3
+1 | git rebase -i HEAD~3
+1 | git commit --amend -m "rebuild data filter as list filter"
+1 | git add git push
+1 | git
+1 | git checkout -b feature/prepop_failure_notify
+1 | git checkout -b hotfix/edge_dropdowns
+1 | git branch -m hotfix/edge-bugs
+1 | git push -u origin hotfix/edge-bugs
+1 | git checkout -b hotfix/edge_bugs
+1 | git cherry-pick bba1f7f9c373fa40b0ba69981808d8b4cb69850b d294eab31ae22c2502b2c26f9c6114a3bd1ed414
+1 | git push -u origin hotfix/edge_bugs
+1 | git checkout -b hotfix/autocomplete
+1 | git cherry-pick 3538df76a00a16aa04028d11e5f704d66190d075 77a79942ef4d785f06a66c1f42d9a6528920b330
+1 | git branch -m hotfix/autocomplete_clear
+1 | git push -u origin hotfix/autocomplete_clear
+1 | git checkout feature/prepop_failure_notify
+1 | git checkout -b feature/prepop_single_call
+1 | git push -u origin feature/prepop_single_call
+1 | open -a Simulator "iPhone 5"
+1 | xcrun simctl list --json
+1 | git checkout -b release/5.11.0_filter_modal_fullscreen
+1 | git push -u origin release/5.11.0_filter_modal_fullscreen
+1 | git checkout -b release/5.11.0_style_tweaks
+1 | git add frontend
+1 | git commit -m "SIT-816 input content overflowing into buttons"
+1 | git push -u origin release/5.11.0_style_tweaks
+1 | git stash --abort
+1 | git stash abort
+1 | code react-ts-boilerplate
+1 | git checkout -b mess
+1 | code testing-course
+1 | git reset --hard HEAD
+1 | git checkout -b feature/prepop_v2
+1 | git checkout feature/prepop_v2
+1 | print 'howdy'
+1 | for (( i=0; i<100; i++ )) \
+1 | for (( i=0; i<5; i++ )) do echo "yes"\
+1 | for (( i=0; i<5; i++ )) echo "yes" done
+1 | for (( i=0; i<5; i++ )) echo $i
+1 | for(( i=0; i<5; i++ )) echo $i
+1 | for ((i=0; i<5; i++ )) echo $i
+1 | for ((i=0;i<5; i++ )) echo $i
+1 | for ((i=0;i<5;i++ )) echo $i
+1 | for ((i=0;i<5;i++)) echo $i
+1 | for ((i=0;i<5;i++))echo $i
+1 | for ((i=0;i<100;i++))if ! $i%15; then echo FizzBuzz done\
+1 | git push -u origin feature/prepop_v2
+1 | code landmass-js
+1 | rm .git/index.lock
+1 | npm run demo
+1 | git config --global core.editor /usr/bin/vim
+1 | rm -rf app/config/pimcore/datasources
+1 | git log prepop_v2
+1 | git branch
+1 | git log feature/prepop_v2
+1 | git checkout -b feature/prepop_rewrite
+1 | git cherry-pick a892d3a45241196d4b414b22d9ac40d971ef5df2
+1 | git push -u origin feature/prepop_rewrite
+1 | git pusgh
+1 | git commit -m "standardise controls and re-arrange interface for demo"
+1 | git checkout -b feature/a11y_ui_tweaks
+1 | git log feature/prepop_prepop_rewrite
+1 | git log feature/prepop_rewrite
+1 | docker images purge
+1 | docker rm $(docker ps -a -f status=exited -q)
+1 | rm -rf ./vendor
+1 | rm -rf ./web
+1 | mv var ./api/var
+1 | cd ./api
+1 | rm -rf ./cache
+1 | git cherckout -b feature/prepop_rewrite_2
+1 | git checkout -b feature/prepop_rewrite_2
+1 | webpack --json > stats.json
+1 | git push -u origin feature/prepop_rewrite_2
+1 | git checkout -b hotfix/is-numeric
+1 | git push -u origin hotfix/is-numeric
+1 | cd D
+1 | git push -u origin feature/a11y_ui_tweaks
+1 | code node_modules/bootstrap/scss/reboot.scss
+1 | open node_modules/bootstrap/scss/
+1 | code ../../project-ants
+1 | git clone git@bitbucket.org:raildiary/raildiary-cms.git
+1 | docker-compose down && docker-compose up -d
+1 | docker-compose up d
+1 | git checkout -b feature/prepop_cpc_fields
+1 | git push -u origin feature/prepop_cpc_fields
+1 | cd api/
+1 | git pysg
+1 | code ../../raildiary-web/frontend
+1 | code ../../raildiary-web/
+1 | git checkout -b feature/pricing_roi
+1 | git push -u origin feature/pricing_roi
+1 | git checkout -b feature/pricing_roi--setup
+1 | git update-index --assume-unchanged web/static/bundles/styles.js
+1 | git update-index --assume-unchanged var/config/predefined-properties.php
+1 | git update-index --assume-unchanged var/config/staticroutes.php
+1 | git update-index --assume-unchanged var/config/web2print.php
+1 | git update-index --assume-unchanged var/config/website-settings.php
+1 | git update-index --assume-unchanged bin/symfony_requirements
+1 | git push -u origin feature/pricing_roi--setup
+1 | git checkout feature/pricing_roi--setup
+1 | cd ../frontend
+1 | cd ../app
+1 | git checkout -b feature/pricing_roi--header_layout
+1 | git push -u origin feature/pricing_roi--header_layout
+1 | git checkout feature/pricing_roi--header_layout
+1 | git fetch -p
+1 | git branch --merged
+1 | git branch --merged master
+1 | git branch --merged master | grep -v '^[ *]*master$'
+1 | git branch --merged develop | grep -v '^[ *]*master$'
+1 | git branch --merged develop | grep -v '^[ *]*develop$'
+1 | git branch --merged develop | grep -v '^[ *]*develop|master$'
+1 | git branch --merged develop | grep -v '^[ *]*[develop|master]$'
+1 | cd .
+1 | find .zsh
+1 | code ~/.zsh_history
